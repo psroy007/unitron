@@ -56,7 +56,7 @@ export default function AboutSection() {
               />
 
               {/* Comic book style overlay */}
-              <div className="absolute top-0 left-0 w-full h-full bg-[url('/placeholder.svg?height=600&width=800')] bg-cover bg-center opacity-30 mix-blend-overlay"></div>
+              {/* <div className="absolute top-0 left-0 w-full h-full bg-[url('/placeholder.svg?height=600&width=800')] bg-cover bg-center opacity-30 mix-blend-overlay"></div> */}
             </motion.div>
 
             <motion.div className="flex flex-col justify-center space-y-6" variants={itemVariants}>
