@@ -1,0 +1,568 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Bangers';
+  src: url('/fonts/Bangers-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 10, 14, 23;
+  --background-end-rgb: 10, 14, 23;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, #6a1b9a, #9c27b0, #ff9800, #ff9800, #9c27b0, #6a1b9a);
+
+  width: 100%;
+  height: 400vh;
+}
+
+/* Comic-style panel borders */
+.comic-panel {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.comic-panel::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+.comic-border {
+  position: relative;
+  border: 3px solid #e62429;
+  box-shadow: 0 0 20px rgba(230, 36, 41, 0.5);
+}
+
+/* Web animation */
+@keyframes webSwing {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.web-swing {
+  animation: webSwing 3s ease-in-out infinite;
+}
+
+/* Slow spin animation for dimensional portals */
+@keyframes slow-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-slow-spin {
+  animation: slow-spin 20s linear infinite;
+}
+
+/* Background size utility for gradient animations */
+.bg-size-200 {
+  background-size: 200% 100%;
+}
+
+/* Pulse animation for dimensional rifts */
+@keyframes pulse {
+  0% {
+    opacity: 0.1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.3;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 0.1;
+    transform: scale(1);
+  }
+}
+
+.animate-pulse {
+  animation: pulse 4s ease-in-out infinite;
+}
+
+/* Glitch animation for text */
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.animate-glitch {
+  animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+}
+
+/* Noise background for glitch effect */
+@keyframes noise {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+  10% {
+    background-position: -5% -10%;
+  }
+  20% {
+    background-position: -15% 5%;
+  }
+  30% {
+    background-position: 7% -25%;
+  }
+  40% {
+    background-position: 20% 25%;
+  }
+  50% {
+    background-position: -25% 10%;
+  }
+  60% {
+    background-position: 15% 5%;
+  }
+  70% {
+    background-position: 0% 15%;
+  }
+  80% {
+    background-position: 25% 35%;
+  }
+  90% {
+    background-position: -10% 10%;
+  }
+}
+
+.bg-noise {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.5'/%3E%3C/svg%3E");
+  background-size: 150px;
+  animation: noise 0.5s steps(5) infinite;
+}
+
+/* Game-like interactive elements */
+.card-draggable {
+  cursor: grab;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-draggable:active {
+  cursor: grabbing;
+  transform: scale(1.02);
+  box-shadow: 0 10px 25px rgba(230, 36, 41, 0.4);
+}
+
+/* Interactive card flip effect */
+.card-flip-container {
+  perspective: 1000px;
+}
+
+.card-flip {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card-flip-container:hover .card-flip {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+/* Gallery image hover effects */
+.gallery-image {
+  transition: all 0.4s ease;
+  filter: grayscale(30%);
+}
+
+.gallery-image:hover {
+  filter: grayscale(0%);
+  transform: scale(1.03);
+  z-index: 10;
+  box-shadow: 0 0 20px rgba(230, 36, 41, 0.6);
+}
+
+/* Bookmark animation */
+@keyframes bookmark-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.bookmark-active {
+  animation: bookmark-pulse 1s ease-in-out;
+}
+
+/* .sky-gradient {
+  background: linear-gradient(to bottom, #6a1b9a, #9c27b0, #ff9800);
+  width: 100%;
+  height: 100vh;
+} */
+
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 15, 10, 31;
+  --background-end-rgb: 15, 10, 31;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+/* Comic-style panel borders with enhanced Spider-Verse styling */
+.comic-panel {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 61, 94, 0.2);
+}
+
+.comic-panel::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+/* Enhanced comic border with Spider-Verse glow */
+.comic-border {
+  position: relative;
+  border: 3px solid #ff3d5e;
+  box-shadow: 0 0 20px rgba(255, 61, 94, 0.7), 0 0 40px rgba(0, 228, 255, 0.3);
+}
+
+/* Web animation */
+@keyframes webSwing {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.web-swing {
+  animation: webSwing 3s ease-in-out infinite;
+}
+
+/* Enhanced slow spin animation for dimensional portals */
+@keyframes slow-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-slow-spin {
+  animation: slow-spin 20s linear infinite;
+}
+
+/* Background size utility for gradient animations */
+.bg-size-200 {
+  background-size: 200% 100%;
+}
+
+/* Enhanced pulse animation for dimensional rifts */
+@keyframes pulse {
+  0% {
+    opacity: 0.1;
+    transform: scale(1);
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(1.05);
+    filter: hue-rotate(30deg);
+  }
+  100% {
+    opacity: 0.1;
+    transform: scale(1);
+    filter: hue-rotate(0deg);
+  }
+}
+
+.animate-pulse {
+  animation: pulse 4s ease-in-out infinite;
+}
+
+/* Enhanced glitch animation for text - more like the Spider-Verse style */
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+    text-shadow: -2px 0 #ff3d5e, 2px 0 #00e4ff;
+  }
+  20% {
+    transform: translate(-2px, 2px);
+    text-shadow: 1px 0 #ff3d5e, -1px 0 #00e4ff;
+  }
+  40% {
+    transform: translate(-2px, -2px);
+    text-shadow: 2px 0 #ff3d5e, -2px 0 #00e4ff;
+  }
+  60% {
+    transform: translate(2px, 2px);
+    text-shadow: -1px 0 #ff3d5e, 1px 0 #00e4ff;
+  }
+  80% {
+    transform: translate(2px, -2px);
+    text-shadow: -1px 0 #ff3d5e, 1px 0 #00e4ff;
+  }
+  100% {
+    transform: translate(0);
+    text-shadow: -2px 0 #ff3d5e, 2px 0 #00e4ff;
+  }
+}
+
+.animate-glitch {
+  animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+}
+
+/* Enhanced noise background for glitch effect */
+@keyframes noise {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+  10% {
+    background-position: -5% -10%;
+  }
+  20% {
+    background-position: -15% 5%;
+  }
+  30% {
+    background-position: 7% -25%;
+  }
+  40% {
+    background-position: 20% 25%;
+  }
+  50% {
+    background-position: -25% 10%;
+  }
+  60% {
+    background-position: 15% 5%;
+  }
+  70% {
+    background-position: 0% 15%;
+  }
+  80% {
+    background-position: 25% 35%;
+  }
+  90% {
+    background-position: -10% 10%;
+  }
+}
+
+.bg-noise {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.5'/%3E%3C/svg%3E");
+  background-size: 150px;
+  animation: noise 0.5s steps(5) infinite;
+}
+
+/* Spider-Verse style halftone effect */
+.halftone {
+  position: relative;
+}
+
+.halftone::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: radial-gradient(circle, #000 1px, transparent 1px);
+  background-size: 4px 4px;
+  background-position: 0 0;
+  mix-blend-mode: overlay;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+/* Dimensional rift effect */
+.dimensional-rift {
+  position: relative;
+  overflow: hidden;
+}
+
+.dimensional-rift::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  background: linear-gradient(45deg, #ff3d5e, #00e4ff, #9b59b6, #ffd600, #00ff9d);
+  background-size: 400% 400%;
+  animation: gradient-shift 15s ease infinite;
+  transform: rotate(45deg);
+  z-index: -1;
+  opacity: 0.5;
+  filter: blur(30px);
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Game-like interactive elements */
+.card-draggable {
+  cursor: grab;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-draggable:active {
+  cursor: grabbing;
+  transform: scale(1.02);
+  box-shadow: 0 10px 25px rgba(255, 61, 94, 0.6), 0 0 15px rgba(0, 228, 255, 0.4);
+}
+
+/* Interactive card flip effect */
+.card-flip-container {
+  perspective: 1000px;
+}
+
+.card-flip {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card-flip-container:hover .card-flip {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+/* Gallery image hover effects */
+.gallery-image {
+  transition: all 0.4s ease;
+  filter: grayscale(30%);
+}
+
+.gallery-image:hover {
+  filter: grayscale(0%);
+  transform: scale(1.03);
+  z-index: 10;
+  box-shadow: 0 0 20px rgba(255, 61, 94, 0.7), 0 0 40px rgba(0, 228, 255, 0.3);
+}
+
+/* Bookmark animation */
+@keyframes bookmark-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.bookmark-active {
+  animation: bookmark-pulse 1s ease-in-out;
+}
+
+/* Spider-Verse style text outline */
+.spiderverse-text {
+  text-shadow: -1px -1px 0 #ff3d5e, 1px -1px 0 #00e4ff, -1px 1px 0 #ff3d5e, 1px 1px 0 #00e4ff;
+}
+
+/* Comic book style dot patterns */
+.comic-dots {
+  position: relative;
+}
+
+.comic-dots::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: radial-gradient(#ff3d5e 1px, transparent 1px);
+  background-size: 10px 10px;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+
