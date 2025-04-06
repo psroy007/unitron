@@ -51,7 +51,7 @@ export default function GalleryPage() {
     // },
     {
       id: 5,
-      src: "/gallary/robo_comp.jpg?height=600&width=800",
+      src: "/gallary/robo_comp.JPG?height=600&width=800",
       alt: "Robotics Competition",
       category: "competitions",
       year: "2023",
