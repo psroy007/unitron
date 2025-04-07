@@ -48,7 +48,7 @@ export default function AboutSection() {
               <div className="absolute inset-0 bg-gradient-to-r from-spider-red to-spider-blue opacity-20"></div>
               {/* Spider-Verse themed event image */}
               <Image
-                src="/images/team.jpg"
+                src="/images/unitron_prev_logo.jpg"
                 alt="Unitron Event"
                 width={800}
                 height={600}
