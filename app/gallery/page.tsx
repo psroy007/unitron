@@ -192,11 +192,10 @@ export default function GalleryPage() {
           >
             <GlitchEffect>
               <h1 className="text-4xl font-bold text-white md:text-5xl font-comic">
-                UNITRON <span className="text-spider-red">GALLERY</span>
-              </h1>
+                UNITRON GALLERY</h1>
             </GlitchEffect>
             <div className="w-24 h-1 mx-auto mt-4 bg-spider-blue"></div>
-            <p className="max-w-2xl mx-auto mt-6 text-gray-300">
+            <p className="max-w-2xl mx-auto mt-6 text-gray-300 font-comic">
               Explore moments from previous Unitron events across the multiverse of technology. Witness the evolution of
               innovation and creativity through the years.
             </p>
@@ -282,7 +281,7 @@ export default function GalleryPage() {
 
                 <div className="p-4">
                   <h3 className="text-lg font-bold text-white font-comic">{image.alt}</h3>
-                  <p className="mt-1 text-sm text-gray-300">{image.description}</p>
+                  <p className="mt-1 text-sm text-gray-300 font-comic">{image.description}</p>
                 </div>
               </motion.div>
             ))}
