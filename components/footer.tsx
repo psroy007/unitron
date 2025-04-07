@@ -52,7 +52,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="ml-10">
+          <div className="ml-0">
             <h3 className="mb-4 text-xl font-bold text-white font-comic">QUICK LINKS</h3>
             <ul className="space-y-2 text-gray-400">
               <li>
