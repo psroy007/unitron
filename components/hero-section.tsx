@@ -48,44 +48,48 @@ export default function HeroSection() {
       </div> */}
 
       <div className="container relative z-10 flex flex-col items-start justify-center h-screen px-4 mx-auto pl-10">
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="text-center"
-        >
-          <div className="relative inline-block">
-            <GlitchEffect intensity="high">
-              <img
-                src="/spider_logo.png"
-                alt="UNiTRON"
-                className="relative mt-12 mb-28"
-              />
-            </GlitchEffect>
-          </div>
+      <motion.div
+  initial={{ opacity: 0, y: 50 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8 }}
+  className="text-center"
+>
+  <div className="relative inline-block">
+    <GlitchEffect intensity="high">
+      <img
+        src="/spider_logo.png"
+        alt="UNiTRON"
+        className="relative mt-12 mb-28 md:mt-16 md:mb-32"
+      />
+    </GlitchEffect>
+  </div>
 
-          <motion.div
-            className="text-black md:text-2xl font-bangers"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.5, duration: 0.8 }}
-          >
-            Enter the Tech-Verse: Where Innovation Meets the Multiverse
-          </motion.div>
+  <motion.div
+  className="text-black text-2xl md:text-4xl font-bangers mt-80"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 0.5, duration: 0.8 }}
+>
+  Enter the Tech-Verse: Where Innovation Meets the Multiverse
+</motion.div>
 
-          <motion.div
-            className="text-white parallax"
-            data-speed="2"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.2 }}
-          >
-            <div className="flex flex-col items-start space-y-2 font-comic">
-              <p className="max-w-2xl mt-6 text-xl text-black md:text-2xl font-bangers parallax">May 2nd, 3rd and 4th, 2025</p>
-              <p className="text-lg text-black font-bangers">Future Institute of Technology</p>
-            </div>
-          </motion.div>
-        </motion.div>
+<motion.div
+  className="text-white parallax mt-10 md:mt-12"
+  data-speed="2"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 1.2 }}
+>
+  <div className="flex flex-col items-center space-y-4 font-comic md:items-start">
+    <p className="max-w-2xl text-2xl text-black md:text-3xl font-bangers parallax">
+      May 2nd, 3rd and 4th, 2025
+    </p>
+    <p className="text-xl text-black md:text-2xl font-bangers">
+      Future Institute of Technology
+    </p>
+  </div>
+</motion.div>
+</motion.div>
       </div>
 
       {/* Web decoration */}
