@@ -38,7 +38,7 @@ export default function AboutSection() {
         >
           <motion.div className="mb-12 text-center" variants={itemVariants}>
             <h2 className="inline-block text-4xl font-bold text-white md:text-5xl font-comic">
-              ABOUT <span className="text-white">UNITRON</span>
+              ABOUT <span className="text-white">UNiTRON</span>
             </h2>
             <div className="w-24 h-1 mx-auto mt-4 bg-spider-blue"></div>
           </motion.div>
@@ -66,7 +66,7 @@ export default function AboutSection() {
               <div className="p-6 bg-spider-dark-blue/20 rounded-lg comic-panel">
               <h3 className="mb-4 text-2xl font-bold text-white font-comic underline decoration-red-500 underline-offset-4">ENTER THE TECH-VERSE</h3>
                 <p className="text-gray-300 font-comic">
-                  Unitron is Future Institute of Technology's flagship technical festival, bringing together the
+                  UNiTRON is Future Institute of Technology's flagship technical festival, bringing together the
                   brightest minds from across the multiverse of technology. This year, we're diving into the
                   Spider-Verse theme to create an immersive experience that blends cutting-edge tech with the excitement
                   of parallel dimensions.
