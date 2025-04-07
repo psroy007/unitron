@@ -149,7 +149,7 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col items-center justify-between pt-8 mt-8 border-t border-gray-800 md:flex-row">
-          <p className="text-sm text-gray-400 font-comic">© 2025 Unitron. All rights reserved. Future Institute of Technology.</p>
+          <p className="text-sm text-gray-400 font-comic">© 2025 UNiTRON. All rights reserved. Future Institute of Technology.</p>
           <button
             onClick={scrollToTop}
             className="p-2 mt-4 text-white transition-colors bg-spider-red rounded-full md:mt-0 hover:bg-spider-blue"
