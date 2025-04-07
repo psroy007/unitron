@@ -52,7 +52,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="ml-16">
+          <div className="ml-10">
             <h3 className="mb-4 text-xl font-bold text-white font-comic">QUICK LINKS</h3>
             <ul className="space-y-2 text-gray-400">
               <li>
@@ -134,15 +134,15 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-400">
               <li className="flex items-start">
                 <span className="inline-block w-4 h-4 mt-1 mr-2 bg-spider-red rounded-full"></span>
-                <span className="font-comic">Future Institute of Technology, 137, VIP Road, Kolkata - 700052</span>
+                <span className="font-comic">240, Garia Boral Main Road, Kolkata - 700154, West Bengal, India</span>
               </li>
               <li className="flex items-start">
                 <span className="inline-block w-4 h-4 mt-1 mr-2 bg-spider-red rounded-full"></span>
-                <span className="font-comic">unitron@futureinstitute.ac.in</span>
+                <span className="font-comic">unitron.fit@gmail.com</span>
               </li>
               <li className="flex items-start">
                 <span className="inline-block w-4 h-4 mt-1 mr-2 bg-spider-red rounded-full"></span>
-                <span className="font-comic">+91 98765 43210</span>
+                <span className="font-comic">+91 8777500789</span>
               </li>
             </ul>
           </div>
