@@ -12,24 +12,24 @@ export default function FaqSection() {
 
   const faqs = [
     {
-      question: "What is Unitron?",
+      question: "What is UNiTRON?",
       answer:
-        "Unitron is Future Institute of Technology's flagship technical festival. It brings together students, tech enthusiasts, and industry professionals for a three-day celebration of innovation, creativity, and technology.",
+        "UNiTRON is Future Institute of Technology's flagship technical festival. It brings together students, tech enthusiasts, and industry professionals for a three-day celebration of innovation, creativity, and technology.",
     },
     {
-      question: "When and where will Unitron 2025 be held?",
+      question: "When and where will UNiTRON 2025 be held?",
       answer:
-        "Unitron 2025 will be held from May 2nd-4th, 2025, at the Future Institute of Technology campus. The event will feature both indoor and outdoor venues across the campus.",
+        "UNiTRON 2025 will be held from May 2nd-4th, 2025, at the Future Institute of Technology campus. The event will feature both indoor and outdoor venues across the campus.",
     },
     {
-      question: "Who can participate in Unitron?",
+      question: "Who can participate in UNiTRON?",
       answer:
-        "Unitron is open to students from all colleges and universities. Some events may have specific eligibility criteria, which will be mentioned in the respective event guidelines.",
+        "UNiTRON is open to students from all colleges and universities. Some events may have specific eligibility criteria, which will be mentioned in the respective event guidelines.",
     },
     {
-      question: "How do I register for Unitron?",
+      question: "How do I register for UNiTRON?",
       answer:
-        "Registration for Unitron can be done through our official website. You can register as an individual or as a team, depending on the event requirements.",
+        "Registration for UNiTRON can be done through our official website. You can register as an individual or as a team, depending on the event requirements.",
     },
     {
       question: "Are there any accommodation facilities available?",
@@ -39,7 +39,7 @@ export default function FaqSection() {
     {
       question: "What are the prizes for the events?",
       answer:
-        "Unitron offers exciting prizes including cash rewards, MAR points, certificates, and more. The total prize pool is over ₹1.7 lakh. Specific prize details for each event are available on the respective event pages.",
+        "UNiTRON offers exciting prizes including cash rewards, MAR points, certificates, and more. The total prize pool is over ₹1.7 lakh. Specific prize details for each event are available on the respective event pages.",
     },
     {
       question: "Can I participate in multiple events?",
