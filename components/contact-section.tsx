@@ -57,7 +57,7 @@ export default function ContactSection() {
                 <p className="mt-2 text-gray-300 font-comic">
                   Future Institute of Technology
                   <br />
-                  137, VIP Road, Kolkata - 700052
+                  240, Garia Boral Main Road, Kolkata - 700154, West Bengal, India
                 </p>
               </div>
 
