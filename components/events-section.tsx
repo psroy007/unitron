@@ -21,48 +21,6 @@ export default function EventsSection() {
   const events = [
     {
       id: 1,
-      title: "Web Slingers",
-      category: "Coding",
-      description:
-        "Showcase your web development skills by creating innovative and responsive websites. Spin your web of code and design to capture the judges' attention.",
-      image: "/placeholder.svg?height=400&width=600",
-      longDescription:
-        "Dive into the multiverse of web development! In this challenge, participants will create a fully responsive website based on a theme revealed at the start of the competition. You'll have 24 hours to design, code, and deploy your creation. Judges will evaluate your work based on design aesthetics, code quality, responsiveness, and creative implementation of the theme. Bring your HTML, CSS, and JavaScript skills to swing through this challenge!",
-      date: "May 3",
-      time: "10:00 AM - 10:00 AM (next day)",
-      venue: "Tech Lab Alpha",
-      team: "2-3 members",
-    },
-    {
-      id: 2,
-      title: "Code Dimension",
-      category: "Coding",
-      description:
-        "Navigate through multiple dimensions of coding challenges. Solve complex problems with efficient algorithms and prove your coding prowess.",
-      image: "/placeholder.svg?height=400&width=600",
-      longDescription:
-        "Enter a dimension where algorithms reign supreme! Code Dimension is an intense competitive coding contest where participants will face increasingly difficult programming challenges across multiple rounds. Each round represents a different dimension with unique problem-solving requirements. From time complexity optimization to space-efficient solutions, you'll need to adapt quickly to survive each dimension. Only the most versatile coders will make it to the final round!",
-      date: "May 2",
-      time: "2:00 PM - 6:00 PM",
-      venue: "Quantum Computing Center",
-      team: "Individual",
-    },
-    {
-      id: 3,
-      title: "CTF-Verse",
-      category: "Coding",
-      description:
-        "Hackers from the Spider-Verse are breaching realities! Use your cyber skills to crack codes, decrypt messages, and outsmart villains in this ultimate Capture the Flag challenge. Only the smartest web-heads can restore balance!",
-      image: "/placeholder.svg?height=400&width=600",
-      longDescription:
-        "The multiverse is under attack! A sinister cyber-villain is tampering with digital dimensions, leaving cryptic clues across cyberspace. As a cyber-Spidey, your mission is to track down vulnerabilities, decrypt codes, and recover lost data before chaos consumes the Spider-Verse. Do you have what it takes to web your way to victory?",
-      date: "May 3",
-      time: "9:00 AM - 5:00 PM",
-      venue: "AI Research Wing",
-      team: "2-4 members",
-    },
-    {
-      id: 4,
       title: "Robo Combat (Weapon)",
       category: "Robotics",
       description:
@@ -76,7 +34,7 @@ export default function EventsSection() {
       team: "2-3 members",
     },
     {
-      id: 5,
+      id: 2,
       title: "Robo Kick",
       category: "Robotics",
       description:
@@ -90,7 +48,7 @@ export default function EventsSection() {
       team: "3-4 members",
     },
     {
-      id: 6,
+      id: 3,
       title: "Death Race",
       category: "Robotics",
       description:
@@ -102,6 +60,48 @@ export default function EventsSection() {
       time: "10:00 AM - 8:00 PM",
       venue: "Secure Operations Center",
       team: "1-3 members",
+    },
+    {
+      id: 6,
+      title: "Web Slingers",
+      category: "Coding",
+      description:
+        "Showcase your web development skills by creating innovative and responsive websites. Spin your web of code and design to capture the judges' attention.",
+      image: "/placeholder.svg?height=400&width=600",
+      longDescription:
+        "Dive into the multiverse of web development! In this challenge, participants will create a fully responsive website based on a theme revealed at the start of the competition. You'll have 24 hours to design, code, and deploy your creation. Judges will evaluate your work based on design aesthetics, code quality, responsiveness, and creative implementation of the theme. Bring your HTML, CSS, and JavaScript skills to swing through this challenge!",
+      date: "May 3",
+      time: "10:00 AM - 10:00 AM (next day)",
+      venue: "Tech Lab Alpha",
+      team: "2-3 members",
+    },
+    {
+      id: 7,
+      title: "Code Dimension",
+      category: "Coding",
+      description:
+        "Navigate through multiple dimensions of coding challenges. Solve complex problems with efficient algorithms and prove your coding prowess.",
+      image: "/placeholder.svg?height=400&width=600",
+      longDescription:
+        "Enter a dimension where algorithms reign supreme! Code Dimension is an intense competitive coding contest where participants will face increasingly difficult programming challenges across multiple rounds. Each round represents a different dimension with unique problem-solving requirements. From time complexity optimization to space-efficient solutions, you'll need to adapt quickly to survive each dimension. Only the most versatile coders will make it to the final round!",
+      date: "May 2",
+      time: "2:00 PM - 6:00 PM",
+      venue: "Quantum Computing Center",
+      team: "Individual",
+    },
+    {
+      id: 8,
+      title: "CTF-Verse",
+      category: "Coding",
+      description:
+        "Hackers from the Spider-Verse are breaching realities! Use your cyber skills to crack codes, decrypt messages, and outsmart villains in this ultimate Capture the Flag challenge. Only the smartest web-heads can restore balance!",
+      image: "/placeholder.svg?height=400&width=600",
+      longDescription:
+        "The multiverse is under attack! A sinister cyber-villain is tampering with digital dimensions, leaving cryptic clues across cyberspace. As a cyber-Spidey, your mission is to track down vulnerabilities, decrypt codes, and recover lost data before chaos consumes the Spider-Verse. Do you have what it takes to web your way to victory?",
+      date: "May 3",
+      time: "9:00 AM - 5:00 PM",
+      venue: "AI Research Wing",
+      team: "Individual",
     },
   ]
 
