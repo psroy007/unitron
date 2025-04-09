@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  text-transform: none !important;
+}
+
 @font-face {
   font-family: 'Bangers';
   src: url('/fonts/Bangers-Regular.ttf') format('truetype');
@@ -566,3 +570,52 @@ body {
 }
 
 
+
+
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  body {
+    font-size: 14px;
+  }
+
+  .comic-panel {
+    margin: 1rem auto;
+    max-width: 90%;
+  }
+
+  .gallery-image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+
+  .comic-panel {
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+  }
+
+  .card-flip-container {
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 10px;
+  }
+
+  .comic-panel {
+    margin: 0.25rem auto;
+    padding: 0.25rem;
+  }
+
+  .gallery-image {
+    box-shadow: none;
+  }
+}
