@@ -255,7 +255,7 @@ export default function EventDetailPage() {
         "Submission includes source code and a deployed version of the website.",
       ],
       coordinators: [
-        { name: "Peter Parker", contact: "+91 98765 43210" },
+        { name: "Purab Singha Roy", contact: "+91 80170 30145" },
         { name: "Gwen Stacy", contact: "+91 98765 43211" },
       ],
       gallery: [
@@ -288,7 +288,7 @@ export default function EventDetailPage() {
         "Programming languages allowed: C, C++, Java, Python.",
       ],
       coordinators: [
-        { name: "Miles Morales", contact: "+91 98765 43212" },
+        { name: "Purab Singha Roy", contact: "+91 80170 30145" },
         { name: "Miguel O'Hara", contact: "+91 98765 43213" },
       ],
       gallery: [
@@ -309,7 +309,7 @@ export default function EventDetailPage() {
       date: "March 16-17",
       time: "9:00 AM - 5:00 PM",
       venue: "AI Research Wing",
-      team: "2-4 members",
+      team: "Individual",
       prizes: "₹25,000 + Cloud Credits",
       featured: true,
       rules: [
@@ -321,7 +321,7 @@ export default function EventDetailPage() {
         "Solutions will be judged on accuracy, innovation, and adaptability.",
       ],
       coordinators: [
-        { name: "Peni Parker", contact: "+91 98765 43214" },
+        { name: "Rupal Debnath", contact: "+91 90071 80468" },
         { name: "Hobie Brown", contact: "+91 98765 43215" },
       ],
       gallery: [
