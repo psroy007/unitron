@@ -141,7 +141,7 @@ export default function EventsPage() {
       date: "May 3",
       time: "9:00 AM - 5:00 PM",
       venue: "AI Research Wing",
-      team: "2-4 members",
+      team: "Individual",
       prizes: "₹25,000 + Cloud Credits",
       featured: true,
     },
