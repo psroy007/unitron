@@ -90,8 +90,7 @@ export default function EventDetailPage() {
         "Projects will be judged on innovation, user experience, and technical implementation.",
       ],
       coordinators: [
-        { name: "Jessica Drew", contact: "+91 98765 43216" },
-        { name: "Ben Reilly", contact: "+91 98765 43217" },
+        { name: "Debayan Saha", contact: "+91 86172 62208" },
       ],
       gallery: [
         "/placeholder.svg?height=400&width=600",
@@ -123,8 +122,7 @@ export default function EventDetailPage() {
         "All prototypes must be demonstrated to the judges at the end of the hackathon.",
       ],
       coordinators: [
-        { name: "Otto Octavius", contact: "+91 98765 43218" },
-        { name: "Max Dillon", contact: "+91 98765 43219" },
+        { name: "Soumojit Hazra", contact: "+91 86974 64829" },
       ],
       gallery: [
         "/placeholder.svg?height=400&width=600",
@@ -156,8 +154,7 @@ export default function EventDetailPage() {
         "The team with the most points at the end of the competition wins.",
       ],
       coordinators: [
-        { name: "Felicia Hardy", contact: "+91 98765 43220" },
-        { name: "Eddie Brock", contact: "+91 98765 43221" },
+        { name: "Snehasish Das", contact: "+91 62900 87607" },
       ],
       gallery: [
         "/placeholder.svg?height=400&width=600",
@@ -189,8 +186,7 @@ export default function EventDetailPage() {
         "The team with the most points at the end of the competition wins.",
       ],
       coordinators: [
-        { name: "Felicia Hardy", contact: "+91 98765 43220" },
-        { name: "Eddie Brock", contact: "+91 98765 43221" },
+        { name: "Dibyajyoti Jana", contact: "+91 81673 76966" },
       ],
       gallery: [
         "/placeholder.svg?height=400&width=600",
@@ -256,7 +252,6 @@ export default function EventDetailPage() {
       ],
       coordinators: [
         { name: "Purab Singha Roy", contact: "+91 80170 30145" },
-        { name: "Gwen Stacy", contact: "+91 98765 43211" },
       ],
       gallery: [
         "/placeholder.svg?height=400&width=600",
@@ -289,7 +284,6 @@ export default function EventDetailPage() {
       ],
       coordinators: [
         { name: "Purab Singha Roy", contact: "+91 80170 30145" },
-        { name: "Miguel O'Hara", contact: "+91 98765 43213" },
       ],
       gallery: [
         "/placeholder.svg?height=400&width=600",
@@ -322,7 +316,6 @@ export default function EventDetailPage() {
       ],
       coordinators: [
         { name: "Rupal Debnath", contact: "+91 90071 80468" },
-        { name: "Hobie Brown", contact: "+91 98765 43215" },
       ],
       gallery: [
         "/placeholder.svg?height=400&width=600",
@@ -354,8 +347,7 @@ export default function EventDetailPage() {
         "The team with the most points at the end of the competition wins.",
       ],
       coordinators: [
-        { name: "Felicia Hardy", contact: "+91 98765 43220" },
-        { name: "Eddie Brock", contact: "+91 98765 43221" },
+        { name: "Sayan Maity", contact: "+91 85838 17241" },
       ],
       gallery: [
         "/placeholder.svg?height=400&width=600",
@@ -387,8 +379,7 @@ export default function EventDetailPage() {
         "The team with the most points at the end of the competition wins.",
       ],
       coordinators: [
-        { name: "Felicia Hardy", contact: "+91 98765 43220" },
-        { name: "Eddie Brock", contact: "+91 98765 43221" },
+        { name: "Chandrima Ganguly", contact: "+91 62916 46552" },
       ],
       gallery: [
         "/placeholder.svg?height=400&width=600",
@@ -420,8 +411,7 @@ export default function EventDetailPage() {
         "The team with the most points at the end of the competition wins.",
       ],
       coordinators: [
-        { name: "Felicia Hardy", contact: "+91 98765 43220" },
-        { name: "Eddie Brock", contact: "+91 98765 43221" },
+        { name: "Chandrima Ganguly", contact: "+91 62916 46552" },
       ],
       gallery: [
         "/placeholder.svg?height=400&width=600",
@@ -453,8 +443,7 @@ export default function EventDetailPage() {
         "The team with the most points at the end of the competition wins.",
       ],
       coordinators: [
-        { name: "Felicia Hardy", contact: "+91 98765 43220" },
-        { name: "Eddie Brock", contact: "+91 98765 43221" },
+        { name: "Sayan Maity", contact: "+91 85838 17241" },
       ],
       gallery: [
         "/placeholder.svg?height=400&width=600",
@@ -486,8 +475,7 @@ export default function EventDetailPage() {
         "The team with the most points at the end of the competition wins.",
       ],
       coordinators: [
-        { name: "Felicia Hardy", contact: "+91 98765 43220" },
-        { name: "Eddie Brock", contact: "+91 98765 43221" },
+        { name: "Sayan Maity", contact: "+91 85838 17241" },
       ],
       gallery: [
         "/placeholder.svg?height=400&width=600",
@@ -519,8 +507,7 @@ export default function EventDetailPage() {
         "The team with the most points at the end of the competition wins.",
       ],
       coordinators: [
-        { name: "Felicia Hardy", contact: "+91 98765 43220" },
-        { name: "Eddie Brock", contact: "+91 98765 43221" },
+        { name: "Chandrima Ganguly", contact: "+91 62916 46552" },
       ],
       gallery: [
         "/placeholder.svg?height=400&width=600",
@@ -552,8 +539,7 @@ export default function EventDetailPage() {
         "The team with the most points at the end of the competition wins.",
       ],
       coordinators: [
-        { name: "Felicia Hardy", contact: "+91 98765 43220" },
-        { name: "Eddie Brock", contact: "+91 98765 43221" },
+        { name: "Sayan Maity", contact: "+91 85838 17241" },
       ],
       gallery: [
         "/placeholder.svg?height=400&width=600",
@@ -585,8 +571,7 @@ export default function EventDetailPage() {
         "The team with the most points at the end of the competition wins.",
       ],
       coordinators: [
-        { name: "Felicia Hardy", contact: "+91 98765 43220" },
-        { name: "Eddie Brock", contact: "+91 98765 43221" },
+        { name: "Chandrima Ganguly", contact: "+91 62916 46552" },
       ],
       gallery: [
         "/placeholder.svg?height=400&width=600",
@@ -618,8 +603,7 @@ export default function EventDetailPage() {
         "The team with the most points at the end of the competition wins.",
       ],
       coordinators: [
-        { name: "Felicia Hardy", contact: "+91 98765 43220" },
-        { name: "Eddie Brock", contact: "+91 98765 43221" },
+        { name: "Sayan Maity", contact: "+91 85838 17241" },
       ],
       gallery: [
         "/placeholder.svg?height=400&width=600",
@@ -651,8 +635,7 @@ export default function EventDetailPage() {
         "The team with the most points at the end of the competition wins.",
       ],
       coordinators: [
-        { name: "Felicia Hardy", contact: "+91 98765 43220" },
-        { name: "Eddie Brock", contact: "+91 98765 43221" },
+        { name: "Sayan Maity", contact: "+91 85838 17241" },
       ],
       gallery: [
         "/placeholder.svg?height=400&width=600",
