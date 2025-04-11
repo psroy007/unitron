@@ -81,22 +81,22 @@ export default function EventsPage() {
       prizes: "₹15,000 + Analytics Software Licenses",
       featured: false,
     },
-    {
-      id: 5,
-      title: "Robo Maze / Robo Carrom",
-      category: "Robotics",
-      description:
-        "Navigate, strategize, and let your robots solve puzzles like Spidey himself!",
-      image: "/placeholder.svg?height=400&width=600",
-      longDescription:
-        "Test your bot's AI and engineering as it navigates through intricate mazes and carrom-style challenges. It's a true test of robotics and problem-solving skills!",
-      date: "May 3",
-      time: "48-hour Hackathon",
-      venue: "Game Development Studio",
-      team: "2-4 members",
-      prizes: "₹18,000 + Gaming Hardware",
-      featured: false,
-    },
+    // {
+    //   id: 5,
+    //   title: "Robo Maze / Robo Carrom",
+    //   category: "Robotics",
+    //   description:
+    //     "Navigate, strategize, and let your robots solve puzzles like Spidey himself!",
+    //   image: "/placeholder.svg?height=400&width=600",
+    //   longDescription:
+    //     "Test your bot's AI and engineering as it navigates through intricate mazes and carrom-style challenges. It's a true test of robotics and problem-solving skills!",
+    //   date: "May 3",
+    //   time: "48-hour Hackathon",
+    //   venue: "Game Development Studio",
+    //   team: "2-4 members",
+    //   prizes: "₹18,000 + Gaming Hardware",
+    //   featured: false,
+    // },
     {
       id: 6,
       title: "Web Slingers",
@@ -138,7 +138,7 @@ export default function EventsPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "The multiverse is under attack! A sinister cyber-villain is tampering with digital dimensions, leaving cryptic clues across cyberspace. As a cyber-Spidey, your mission is to track down vulnerabilities, decrypt codes, and recover lost data before chaos consumes the Spider-Verse. Do you have what it takes to web your way to victory?",
-      date: "May 3",
+      date: "May 4",
       time: "9:00 AM - 5:00 PM",
       venue: "AI Research Wing",
       team: "Individual",
@@ -147,118 +147,6 @@ export default function EventsPage() {
     },
     {
       id: 9,
-      title: "Spidey-Fiesta",
-      category: "Non-Tech",
-      description:
-        "A multiversal carnival packed with fun, games, and web-slinging surprises!",
-      image: "/placeholder.svg?height=400&width=600",
-      longDescription:
-        "Step into a world where the Spider-Verse comes to life! From thrilling games to themed attractions, experience a carnival filled with Spidey-themed adventures, food, and entertainment. Get ready for an unforgettable fiesta!",
-      date: "May 2",
-      time: "10:00 AM - 6:00 PM",
-      venue: "Design Thinking Lab",
-      team: "1-2 members",
-      prizes: "₹15,000 + Design Software Subscriptions",
-      featured: false,
-    },
-    {
-      id: 10,
-      title: "Web of Hints",
-      category: "Non-Tech",
-      description:
-        "Solve cryptic clues, swing past obstacles, and find the hidden treasure!",
-      image: "/placeholder.svg?height=400&width=600",
-      longDescription:
-        "Villains have stolen a priceless artifact, and only the sharpest minds can recover it! Follow a web of clues, crack riddles, and navigate through obstacles as you uncover the lost secrets of the Spider-Verse.",
-      date: "May 3",
-      time: "36-hour Hackathon",
-      venue: "Blockchain Innovation Hub",
-      team: "2-3 members",
-      prizes: "₹20,000 + Crypto Rewards",
-      featured: false,
-    },
-    {
-      id: 11,
-      title: "Leap of Faith",
-      category: "Non-Tech",
-      description:
-        "Push your limits and overcome every obstacle in this ultimate Spidey challenge!",
-      image: "/placeholder.svg?height=400&width=600",
-      longDescription:
-        "Just like Miles Morales had to take a leap of faith, you must conquer a series of hurdles to prove your skills! Run, jump, and swing past obstacles in this exciting physical challenge that tests your agility and endurance.",
-      date: "May 4",
-      time: "10:00 AM - 10:00 AM (next day)",
-      venue: "Tech Lab Alpha",
-      team: "2-3 members",
-      prizes: "₹20,000 + Internship Opportunities",
-      featured: false,
-    },
-    {
-      id: 12,
-      title: "Spidey's Lens",
-      category: "Non-Tech",
-      description:
-        "Capture the multiverse through the eyes of a true Spidey-photographer!",
-      image: "/placeholder.svg?height=400&width=600",
-      longDescription:
-        "Channel your inner Peter Parker and snap breathtaking shots that tell a story! Whether it's action-packed moments or deep emotions, showcase your skills in a photography contest that celebrates creativity and vision.",
-      date: "May 2",
-      time: "2:00 PM - 6:00 PM",
-      venue: "Quantum Computing Center",
-      team: "Individual",
-      prizes: "₹15,000 + Premium Subscriptions",
-      featured: false,
-    },
-    {
-      id: 13,
-      title: "Webbed Masterpiece",
-      category: "Non-Tech",
-      description:
-        "Paint, sketch, and bring the Spider-Verse to life with your creativity!",
-      image: "/placeholder.svg?height=400&width=600",
-      longDescription:
-        "The multiverse is full of colors, styles, and unique Spider-heroes. Use your artistic talent to create a masterpiece that captures the essence of the Spider-Verse in this vibrant art event!",
-      date: "May 3",
-      time: "9:00 AM - 5:00 PM",
-      venue: "AI Research Wing",
-      team: "2-4 members",
-      prizes: "₹25,000 + Cloud Credits",
-      featured: false,
-    },
-    {
-      id: 14,
-      title: "Web Slingers",
-      category: "Non-Tech",
-      description:
-        "Engineer a web-strong bridge that can withstand any challenge!",
-      image: "/placeholder.svg?height=400&width=600",
-      longDescription:
-        "Peter Parker built web bridges to escape danger—now it's your turn! Design and construct a bridge using limited materials, ensuring stability and strength in this thrilling engineering challenge.",
-      date: "May 4",
-      time: "11:00 AM - 7:00 PM",
-      venue: "Immersive Experience Lab",
-      team: "2-3 members",
-      prizes: "₹18,000 + VR Equipment",
-      featured: false,
-    },
-    {
-      id: 15,
-      title: "Web of Wits",
-      category: "Non-Tech",
-      description:
-        "Only the smartest Spideys can crack this web of tech questions!",
-      image: "/placeholder.svg?height=400&width=600",
-      longDescription:
-        "Think you have the intellect of Peter Parker? Test your knowledge of technology, science, and the Spider-Verse in this electrifying quiz where only the wittiest web-heads prevail!",
-      date: "May 2",
-      time: "9:00 AM - 6:00 PM",
-      venue: "Hardware Innovation Lab",
-      team: "3-4 members",
-      prizes: "₹22,000 + Development Kits",
-      featured: false,
-    },
-    {
-      id: 16,
       title: "BGMI",
       category: "Gaming",
       description:
@@ -274,7 +162,7 @@ export default function EventsPage() {
       featured: false,
     },
     {
-      id: 17,
+      id: 10,
       title: "Free Fire",
       category: "Gaming",
       description:
@@ -290,7 +178,7 @@ export default function EventsPage() {
       featured: false,
     },
     {
-      id: 18,
+      id: 11,
       title: "Call of Duty",
       category: "Gaming",
       description:
@@ -306,7 +194,7 @@ export default function EventsPage() {
       featured: false,
     },
     {
-      id: 19,
+      id: 12,
       title: "FIFA Mobile",
       category: "Gaming",
       description:
@@ -322,7 +210,7 @@ export default function EventsPage() {
       featured: false,
     },
     {
-      id: 20,
+      id: 13,
       title: "PES",
       category: "Gaming",
       description:
@@ -338,7 +226,7 @@ export default function EventsPage() {
       featured: false,
     },
     {
-      id: 21,
+      id: 14,
       title: "Valorant",
       category: "Gaming",
       description:
@@ -354,7 +242,7 @@ export default function EventsPage() {
       featured: false,
     },
     {
-      id: 22,
+      id: 15,
       title: "Asphalt 8",
       category: "Gaming",
       description:
@@ -370,7 +258,7 @@ export default function EventsPage() {
       featured: false,
     },
     {
-      id: 23,
+      id: 16,
       title: "Uno",
       category: "Gaming",
       description:
@@ -386,7 +274,7 @@ export default function EventsPage() {
       featured: false,
     },
     {
-      id: 24,
+      id: 17,
       title: "8 Ball Pool",
       category: "Gaming",
       description:
@@ -402,7 +290,7 @@ export default function EventsPage() {
       featured: false,
     },
     {
-      id: 25,
+      id: 18,
       title: "Subway Surfers",
       category: "Gaming",
       description:
@@ -417,14 +305,126 @@ export default function EventsPage() {
       prizes: "₹20,000 + Crypto Rewards",
       featured: false,
     },
+    {
+      id: 19,
+      title: "Spidey-Fiesta",
+      category: "Non-Tech",
+      description:
+        "A multiversal carnival packed with fun, games, and web-slinging surprises!",
+      image: "/placeholder.svg?height=400&width=600",
+      longDescription:
+        "Step into a world where the Spider-Verse comes to life! From thrilling games to themed attractions, experience a carnival filled with Spidey-themed adventures, food, and entertainment. Get ready for an unforgettable fiesta!",
+      date: "May 2-3",
+      time: "11:00 AM - 5:00 PM",
+      venue: "Design Thinking Lab",
+      team: "1-2 members",
+      prizes: "₹15,000 + Design Software Subscriptions",
+      featured: false,
+    },
+    {
+      id: 20,
+      title: "Web of Hints",
+      category: "Non-Tech",
+      description:
+        "Solve cryptic clues, swing past obstacles, and find the hidden treasure!",
+      image: "/placeholder.svg?height=400&width=600",
+      longDescription:
+        "Villains have stolen a priceless artifact, and only the sharpest minds can recover it! Follow a web of clues, crack riddles, and navigate through obstacles as you uncover the lost secrets of the Spider-Verse.",
+      date: "May 2, May 4",
+      time: ["Prelims: 02:30 PM - 4:00 PM", "Finals: 11:00 AM - 01:00 PM"],
+      venue: "Blockchain Innovation Hub",
+      team: "2-3 members",
+      prizes: "₹20,000 + Crypto Rewards",
+      featured: false,
+    },
+    {
+      id: 21,
+      title: "Leap of Faith",
+      category: "Non-Tech",
+      description:
+        "Push your limits and overcome every obstacle in this ultimate Spidey challenge!",
+      image: "/placeholder.svg?height=400&width=600",
+      longDescription:
+        "Just like Miles Morales had to take a leap of faith, you must conquer a series of hurdles to prove your skills! Run, jump, and swing past obstacles in this exciting physical challenge that tests your agility and endurance.",
+      date: "May 3-4",
+      time: ["Prelims: 12:00 PM - 2:00 PM", "Finals: 03:00 PM - 04:30 PM"],
+      venue: "Tech Lab Alpha",
+      team: "2-3 members",
+      prizes: "₹20,000 + Internship Opportunities",
+      featured: false,
+    },
+    {
+      id: 22,
+      title: "Spidey's Lens",
+      category: "Non-Tech",
+      description:
+        "Capture the multiverse through the eyes of a true Spidey-photographer!",
+      image: "/placeholder.svg?height=400&width=600",
+      longDescription:
+        "Channel your inner Peter Parker and snap breathtaking shots that tell a story! Whether it's action-packed moments or deep emotions, showcase your skills in a photography contest that celebrates creativity and vision.",
+      date: "May 2-4",
+      time: "10:00 AM - 8:00 PM",
+      venue: "Quantum Computing Center",
+      team: "Individual",
+      prizes: "₹15,000 + Premium Subscriptions",
+      featured: false,
+    },
+    {
+      id: 23,
+      title: "Webbed Masterpiece",
+      category: "Non-Tech",
+      description:
+        "Paint, sketch, and bring the Spider-Verse to life with your creativity!",
+      image: "/placeholder.svg?height=400&width=600",
+      longDescription:
+        "The multiverse is full of colors, styles, and unique Spider-heroes. Use your artistic talent to create a masterpiece that captures the essence of the Spider-Verse in this vibrant art event!",
+      date: "May 2-4",
+      time: "10:00 AM - 8:00 PM",
+      venue: "AI Research Wing",
+      team: "2-4 members",
+      prizes: "₹25,000 + Cloud Credits",
+      featured: false,
+    },
+    {
+      id: 24,
+      title: "Sticky Webs",
+      category: "Non-Tech",
+      description:
+        "Engineer a web-strong bridge that can withstand any challenge!",
+      image: "/placeholder.svg?height=400&width=600",
+      longDescription:
+        "Peter Parker built web bridges to escape danger—now it's your turn! Design and construct a bridge using limited materials, ensuring stability and strength in this thrilling engineering challenge.",
+      date: "May 2-4",
+      time: "10:00 AM - 8:00 PM",
+      venue: "Immersive Experience Lab",
+      team: "2-3 members",
+      prizes: "₹18,000 + VR Equipment",
+      featured: false,
+    },
+    {
+      id: 25,
+      title: "Web of Wits",
+      category: "Non-Tech",
+      description:
+        "Only the smartest Spideys can crack this web of tech questions!",
+      image: "/placeholder.svg?height=400&width=600",
+      longDescription:
+        "Think you have the intellect of Peter Parker? Test your knowledge of technology, science, and the Spider-Verse in this electrifying quiz where only the wittiest web-heads prevail!",
+      date: "May 2-3",
+      time: ["Prelims: 12:30 PM - 02:00 PM", "Finals: 10:00 AM - 11:30 AM"],
+      venue: "Hardware Innovation Lab",
+      team: "3-4 members",
+      prizes: "₹22,000 + Development Kits",
+      featured: false,
+    },
   ]
 
   const categories = [
     { id: "all", name: "All Categories" },
     { id: "Robotics", name: "Robotics" },
     { id: "Coding", name: "Coding" },
-    { id: "Non-Tech", name: "Non-Tech" },
     { id: "Gaming", name: "Gaming" },
+    { id: "Non-Tech", name: "Non-Tech" },
     // { id: "AR/VR Development", name: "AR/VR" },
     // { id: "Hardware & IoT", name: "Hardware & IoT" },
     // { id: "Cybersecurity", name: "Cybersecurity" },
