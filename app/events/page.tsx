@@ -83,7 +83,7 @@ export default function EventsPage() {
     },
     {
       id: 5,
-      title: "Robo Maze, Robo Carrom",
+      title: "Robo Maze / Robo Carrom",
       category: "Robotics",
       description:
         "Navigate, strategize, and let your robots solve puzzles like Spidey himself!",
