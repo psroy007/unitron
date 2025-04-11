@@ -75,7 +75,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "The Spider-Verse has seen its fair share of battles, but this time, it's mechanized! Design and control a combat robot to fight against other contenders in an intense arena battle.",
-      date: "March 17",
+      date: "May 2",
       time: "11:00 AM - 7:00 PM",
       venue: "Immersive Experience Lab",
       team: "2-3 members",
@@ -107,7 +107,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "Design a robot capable of powerful kicks and precision passes in this high-energy robotic soccer challenge. Only the best-engineered bot will claim victory!",
-      date: "March 15-16",
+      date: "May 3-4",
       time: "9:00 AM - 6:00 PM",
       venue: "Hardware Innovation Lab",
       team: "3-4 members",
@@ -139,7 +139,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "Speed through an intense track filled with obstacles and challenges. Only the fastest and most maneuverable robots will survive this high-stakes race through the Spider-Verse!",
-      date: "March 17",
+      date: "May 2",
       time: "10:00 AM - 8:00 PM",
       venue: "Secure Operations Center",
       team: "1-3 members",
@@ -171,7 +171,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "Compete in an exhilarating rocket-launching contest where height, accuracy, and design ingenuity matter. Will your rocket soar across dimensions?",
-      date: "March 17",
+      date: "May 3",
       time: "10:00 AM - 8:00 PM",
       venue: "Secure Operations Center",
       team: "1-3 members",
@@ -194,39 +194,39 @@ export default function EventDetailPage() {
         "/placeholder.svg?height=400&width=600",
       ],
     },
-    {
-      id: 5,
-      title: "Robo Maze, Robo Carrom",
-      category: "Robotics",
-      description:
-        "Navigate, strategize, and let your robots solve puzzles like Spidey himself!",
-      image: "/placeholder.svg?height=400&width=600",
-      longDescription:
-        "Test your bot's AI and engineering as it navigates through intricate mazes and carrom-style challenges. It's a true test of robotics and problem-solving skills!",
-      date: "March 17",
-      time: "10:00 AM - 8:00 PM",
-      venue: "Secure Operations Center",
-      team: "1-3 members",
-      prizes: "₹20,000 + Security Certifications",
-      featured: false,
-      rules: [
-        "Participants can compete individually or in teams of up to 3 members.",
-        "The CTF will include challenges in cryptography, web exploitation, reverse engineering, and network security.",
-        "Points will be awarded based on the difficulty of the challenges solved.",
-        "Hints will be available, but using them will reduce the points earned for that challenge.",
-        "Any attempt to attack the CTF infrastructure or other teams will result in disqualification.",
-        "The team with the most points at the end of the competition wins.",
-      ],
-      coordinators: [
-        { name: "Felicia Hardy", contact: "+91 98765 43220" },
-        { name: "Eddie Brock", contact: "+91 98765 43221" },
-      ],
-      gallery: [
-        "/placeholder.svg?height=400&width=600",
-        "/placeholder.svg?height=400&width=600",
-        "/placeholder.svg?height=400&width=600",
-      ],
-    },
+    // {
+    //   id: 5,
+    //   title: "Robo Maze, Robo Carrom",
+    //   category: "Robotics",
+    //   description:
+    //     "Navigate, strategize, and let your robots solve puzzles like Spidey himself!",
+    //   image: "/placeholder.svg?height=400&width=600",
+    //   longDescription:
+    //     "Test your bot's AI and engineering as it navigates through intricate mazes and carrom-style challenges. It's a true test of robotics and problem-solving skills!",
+    //   date: "March 17",
+    //   time: "10:00 AM - 8:00 PM",
+    //   venue: "Secure Operations Center",
+    //   team: "1-3 members",
+    //   prizes: "₹20,000 + Security Certifications",
+    //   featured: false,
+    //   rules: [
+    //     "Participants can compete individually or in teams of up to 3 members.",
+    //     "The CTF will include challenges in cryptography, web exploitation, reverse engineering, and network security.",
+    //     "Points will be awarded based on the difficulty of the challenges solved.",
+    //     "Hints will be available, but using them will reduce the points earned for that challenge.",
+    //     "Any attempt to attack the CTF infrastructure or other teams will result in disqualification.",
+    //     "The team with the most points at the end of the competition wins.",
+    //   ],
+    //   coordinators: [
+    //     { name: "Felicia Hardy", contact: "+91 98765 43220" },
+    //     { name: "Eddie Brock", contact: "+91 98765 43221" },
+    //   ],
+    //   gallery: [
+    //     "/placeholder.svg?height=400&width=600",
+    //     "/placeholder.svg?height=400&width=600",
+    //     "/placeholder.svg?height=400&width=600",
+    //   ],
+    // },
     {
       id: 6,
       title: "Web Slingers",
@@ -236,7 +236,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "Dive into the multiverse of web development! In this challenge, participants will create a fully responsive website based on a theme revealed at the start of the competition. You'll have 24 hours to design, code, and deploy your creation. Judges will evaluate your work based on design aesthetics, code quality, responsiveness, and creative implementation of the theme. Bring your HTML, CSS, and JavaScript skills to swing through this challenge!",
-      date: "March 16",
+      date: "May 2",
       time: "10:00 AM - 10:00 AM (next day)",
       venue: "Tech Lab Alpha",
       team: "2-3 members",
@@ -268,7 +268,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "Enter a dimension where algorithms reign supreme! Code Dimension is an intense competitive coding contest where participants will face increasingly difficult programming challenges across multiple rounds. Each round represents a different dimension with unique problem-solving requirements. From time complexity optimization to space-efficient solutions, you'll need to adapt quickly to survive each dimension. Only the most versatile coders will make it to the final round!",
-      date: "March 15",
+      date: "May 2-3",
       time: "2:00 PM - 6:00 PM",
       venue: "Quantum Computing Center",
       team: "Individual",
@@ -300,7 +300,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "The multiverse is under attack! A sinister cyber-villain is tampering with digital dimensions, leaving cryptic clues across cyberspace. As a cyber-Spidey, your mission is to track down vulnerabilities, decrypt codes, and recover lost data before chaos consumes the Spider-Verse. Do you have what it takes to web your way to victory?",
-      date: "March 16-17",
+      date: "May 4",
       time: "9:00 AM - 5:00 PM",
       venue: "AI Research Wing",
       team: "Individual",
@@ -332,7 +332,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "In an alternate dimension, chaos reigns, and only the strongest Spideys will survive! Join the ultimate battle royale where precision, teamwork, and strategy determine who swings to victory. Will you emerge as the last Spidey standing, or will you be lost in the collapsing multiverse?",
-      date: "March 17",
+      date: "May 2",
       time: "10:00 AM - 8:00 PM",
       venue: "Secure Operations Center",
       team: "1-3 members",
@@ -364,7 +364,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "The Spider-Verse is under siege, and only the fastest, smartest, and most agile warriors can defend it! In this high-speed survival showdown, dodge enemy fire, swing into action, and prove your supremacy in an epic Free Fire tournament.",
-      date: "March 17",
+      date: "May 3",
       time: "10:00 AM - 8:00 PM",
       venue: "Secure Operations Center",
       team: "1-3 members",
@@ -396,7 +396,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "When villains from multiple dimensions join forces, it's up to you to stop them! Enter an intense Call of Duty showdown where strategy, precision, and web-enhanced reflexes are key. Whether in deathmatch, search and destroy, or battle royale, every shot counts in this war for the multiverse.",
-      date: "March 17",
+      date: "May 4",
       time: "10:00 AM - 8:00 PM",
       venue: "Secure Operations Center",
       team: "1-3 members",
@@ -428,7 +428,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "Football isn't just a game—it's a battle across dimensions! Lace up and take control of your team as you dribble past defenders, curve the ball like a web-line, and strike powerful goals in a FIFA Mobile tournament where champions are made.",
-      date: "March 17",
+      date: "May 2",
       time: "10:00 AM - 8:00 PM",
       venue: "Secure Operations Center",
       team: "1-3 members",
@@ -460,7 +460,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "In this dimension, football has a Spider-Man twist! Experience precision gameplay and show off your dribbling skills as you face off against the best PES players. Will your team weave the perfect web of passes to victory?",
-      date: "March 17",
+      date: "May 3",
       time: "10:00 AM - 8:00 PM",
       venue: "Secure Operations Center",
       team: "1-3 members",
@@ -492,7 +492,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "The villains of the Spider-Verse are infiltrating every reality! As elite agents, you and your team must take them down using strategy, precise shots, and lightning-fast reflexes. Every round is a battle for survival—make every ability count!",
-      date: "March 17",
+      date: "May 4",
       time: "10:00 AM - 8:00 PM",
       venue: "Secure Operations Center",
       team: "1-3 members",
@@ -524,7 +524,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "When different dimensions collide, only the fastest racers can navigate the chaos! Blaze through impossible tracks, pull off gravity-defying stunts, and cross the finish line in an adrenaline-fueled race through the Spider-Verse.",
-      date: "March 17",
+      date: "May 2",
       time: "10:00 AM - 8:00 PM",
       venue: "Secure Operations Center",
       team: "1-3 members",
@@ -556,7 +556,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "When Spidey's friends and foes gather around a table, expect chaos! Skip turns, reverse fates, and unleash the dreaded '+4' as you battle to be the ultimate Uno champion. Every move might just open a new dimension!",
-      date: "March 17",
+      date: "May 3",
       time: "10:00 AM - 8:00 PM",
       venue: "Secure Operations Center",
       team: "1-3 members",
@@ -588,7 +588,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "Spider-Man's agility isn't just for swinging—it's for pool too! Test your angles, master trick shots, and outplay your rivals in a thrilling 8 Ball Pool tournament where the best cue artists reign supreme.",
-      date: "March 17",
+      date: "May 4",
       time: "10:00 AM - 8:00 PM",
       venue: "Secure Operations Center",
       team: "1-3 members",
@@ -620,7 +620,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "In a world where reality keeps shifting, the only way to survive is to keep running! Dash across iconic Subway Surfers maps with Spidey speed, avoiding obstacles and collecting power-ups to stay ahead of the chase.",
-      date: "March 17",
+      date: "May 2",
       time: "10:00 AM - 8:00 PM",
       venue: "Secure Operations Center",
       team: "1-3 members",
@@ -652,8 +652,8 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "Step into a world where the Spider-Verse comes to life! From thrilling games to themed attractions, experience a carnival filled with Spidey-themed adventures, food, and entertainment. Get ready for an unforgettable fiesta!",
-      date: "March 17",
-      time: "10:00 AM - 8:00 PM",
+      date: "May 2-3",
+      time: "11:00 AM - 5:00 PM",
       venue: "Secure Operations Center",
       team: "1-3 members",
       prizes: "₹20,000 + Security Certifications",
@@ -686,8 +686,8 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "Villains have stolen a priceless artifact, and only the sharpest minds can recover it! Follow a web of clues, crack riddles, and navigate through obstacles as you uncover the lost secrets of the Spider-Verse.",
-      date: "March 17",
-      time: "10:00 AM - 8:00 PM",
+      date: "May 2, May 4",
+      time: ["Prelims: 02:30 PM - 4:00 PM", "Finals: 11:00 AM - 01:00 PM"],
       venue: "Secure Operations Center",
       team: "1-3 members",
       prizes: "₹20,000 + Security Certifications",
@@ -718,8 +718,8 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "Just like Miles Morales had to take a leap of faith, you must conquer a series of hurdles to prove your skills! Run, jump, and swing past obstacles in this exciting physical challenge that tests your agility and endurance.",
-      date: "March 17",
-      time: "10:00 AM - 8:00 PM",
+      date: "May 3-4",
+      time: ["Prelims: 12:00 PM - 2:00 PM", "Finals: 03:00 PM - 04:30 PM"],
       venue: "Secure Operations Center",
       team: "1-3 members",
       prizes: "₹20,000 + Security Certifications",
@@ -750,7 +750,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "Channel your inner Peter Parker and snap breathtaking shots that tell a story! Whether it's action-packed moments or deep emotions, showcase your skills in a photography contest that celebrates creativity and vision.",
-      date: "March 17",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "Secure Operations Center",
       team: "1-3 members",
@@ -782,7 +782,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "The multiverse is full of colors, styles, and unique Spider-heroes. Use your artistic talent to create a masterpiece that captures the essence of the Spider-Verse in this vibrant art event!",
-      date: "March 17",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "Secure Operations Center",
       team: "1-3 members",
@@ -814,7 +814,7 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "Peter Parker built web bridges to escape danger—now it's your turn! Design and construct a bridge using limited materials, ensuring stability and strength in this thrilling engineering challenge.",
-      date: "March 17",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "Secure Operations Center",
       team: "1-3 members",
@@ -846,8 +846,8 @@ export default function EventDetailPage() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "Think you have the intellect of Peter Parker? Test your knowledge of technology, science, and the Spider-Verse in this electrifying quiz where only the wittiest web-heads prevail!",
-      date: "March 17",
-      time: "10:00 AM - 8:00 PM",
+      date: "May 2-3",
+      time: ["Prelims: 12:30 PM - 02:00 PM", "Finals: 10:00 AM - 11:30 AM"],
       venue: "Secure Operations Center",
       team: "1-3 members",
       prizes: "₹20,000 + Security Certifications",
