@@ -339,12 +339,12 @@ export default function EventDetailPage() {
       prizes: "₹20,000 + Security Certifications",
       featured: false,
       rules: [
-        "BGMI BR:"
+        "BGMI BR:",
         "The complete event will be in online mode.",
         "Prelims will be hosted on the first day of the event i.e. 2TH MAY 2025. Finals will be hosted on 3RD MAY 2025.",
         "All the teams will be divided into two groups, both groups will play two matches each in the Prelims.",
         "After the end of two matches for both the groups, the points of each team will be calculated on the basis of global BGMI tournament rules.",
-        "BGMI TDM:"
+        "BGMI TDM:",
         "The matches will be played offline/online during UNITRON ’25 i.e., on 2ND ,3RD and 4TH MAY 2025.",
         "It will be played as Team vs. Team, Team Death Match.",
         "The winning team will be awarded with the prize money.",
