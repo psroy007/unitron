@@ -53,7 +53,7 @@ export default function HeroSection() {
       transition={{ duration: 0.8 }}
       className="text-center"
     >
-      <div className="relative inline-block">
+      <div className="relative inline-block mb-20">
         <GlitchEffect intensity="high">
           <img
             src="/spider_logo.png"
