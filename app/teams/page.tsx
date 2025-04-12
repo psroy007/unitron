@@ -176,6 +176,17 @@ export default function TeamSection() {
         github: "#",
       },
     },
+    // {
+    //   id: 8,
+    //   name: "Ayantika Das",
+    //   role: "Tech Head",
+    //   image: "/images/Ayantika.jpg",
+    //   socials: {
+    //     twitter: "#",
+    //     linkedin: "#",
+    //     github: "#",
+    //   },
+    // },
     {
       id: 9,
       name: "Debayan Saha",
@@ -350,6 +361,16 @@ export default function TeamSection() {
 
   return (
     <>
+
+    {/* Header with back button */}
+    <div className="fixed top-0 left-0 right-0 z-40 py-4 bg-spider-dark/90 backdrop-blur-md">
+        <div className="container flex items-center px-4 mx-auto">
+          <Link href="/" className="flex items-center text-white hover:text-spider-red transition-colors">
+            <ArrowLeft className="w-5 h-5 mr-2" />
+            <span>Back to Home</span>
+          </Link>
+        </div>
+      </div>
        {/* Faculty Mentor Section */}
 <section id="faculty-mentor" className="relative py-20 overflow-hidden">
   {/* <div className="absolute inset-0 bg-[url('/placeholder.svg?height=1080&width=1920')] bg-cover opacity-5"></div> */}
