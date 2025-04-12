@@ -64,7 +64,7 @@ export default function HeroSection() {
               <img
                 src="/spider_logo.png"
                 alt="UNiTRON"
-                className="relative mt-12 mb-28 md:mt-12 md:mb-38"
+                className="relative mt-12 mb-28 md:mt-16 md:mb-32"
               />
             </GlitchEffect>
           </div>
@@ -99,4 +99,3 @@ export default function HeroSection() {
     </section>
   )
 }
-
