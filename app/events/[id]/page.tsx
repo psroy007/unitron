@@ -855,7 +855,7 @@ export default function EventDetailPage() {
     },
     {
       id: 25,
-      title: "Web of Wits",
+      title: "Quantum Web Quiz",
       category: "Non-Tech",
       description:
         "The web tests minds, not muscles—enter if your brain’s wired for war.",
