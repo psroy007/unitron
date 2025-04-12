@@ -37,9 +37,9 @@ export default function AboutSection() {
           animate={isInView ? "visible" : "hidden"}
         >
           <motion.div className="mb-12 text-center" variants={itemVariants}>
-            <h2 className="inline-block text-4xl font-bold text-white md:text-5xl font-comic">
-              ABOUT <span className="text-white">UNITRON</span>
-            </h2>
+          <h2 className="text-white text-4xl inline-block md:text-5xl font-comic font-bold">ABOUT UN</h2>
+          <span className="text-white text-4xl inline-block md:text-5xl font-comic">i</span>
+          <h2 className="text-white text-4xl inline-block md:text-5xl font-comic font-bold">TRON</h2>
             <div className="w-24 h-1 mx-auto mt-4 bg-spider-blue"></div>
           </motion.div>
 
@@ -47,23 +47,26 @@ export default function AboutSection() {
             <motion.div className="relative overflow-hidden rounded-lg comic-border" variants={itemVariants}>
               <div className="absolute inset-0 bg-gradient-to-r from-spider-red to-spider-blue opacity-20"></div>
               {/* Spider-Verse themed event image */}
-              <Image
-                src="/images/team.jpg"
-                alt="Unitron Event"
-                width={800}
-                height={600}
-                className="object-cover w-full h-full"
-              />
+              <video
+                  src="/videos/about.mp4"
+                  width={800}
+                  height={600}
+                  className="object-cover w-full h-full"
+                  // controls
+                  autoPlay
+                  loop
+                  muted
+                />
 
               {/* Comic book style overlay */}
-              <div className="absolute top-0 left-0 w-full h-full bg-[url('/placeholder.svg?height=600&width=800')] bg-cover bg-center opacity-30 mix-blend-overlay"></div>
+              {/* <div className="absolute top-0 left-0 w-full h-full bg-[url('/placeholder.svg?height=600&width=800')] bg-cover bg-center opacity-30 mix-blend-overlay"></div> */}
             </motion.div>
 
             <motion.div className="flex flex-col justify-center space-y-6" variants={itemVariants}>
               <div className="p-6 bg-spider-dark-blue/20 rounded-lg comic-panel">
-                <h3 className="mb-4 text-2xl font-bold text-spider-red font-bangers">ENTER THE TECH-VERSE</h3>
+              <h3 className="mb-4 text-2xl font-bold text-white font-comic underline decoration-red-500 underline-offset-4">ENTER THE TECH-VERSE</h3>
                 <p className="text-gray-300 font-comic">
-                  Unitron is Future Institute of Technology's flagship technical festival, bringing together the
+                  UNiTRON is Future Institute of Technology's flagship technical festival, bringing together the
                   brightest minds from across the multiverse of technology. This year, we're diving into the
                   Spider-Verse theme to create an immersive experience that blends cutting-edge tech with the excitement
                   of parallel dimensions.
@@ -71,7 +74,7 @@ export default function AboutSection() {
               </div>
 
               <div className="p-6 bg-spider-dark-blue/20 rounded-lg comic-panel">
-                <h3 className="mb-4 text-2xl font-bold text-spider-red font-bangers">WHY PARTICIPATE?</h3>
+              <h3 className="mb-4 text-2xl font-bold text-white font-comic underline decoration-red-500 underline-offset-4">WHY PARTICIPATE?</h3>
                 <ul className="space-y-2 text-gray-300">
                   <li className="flex items-start">
                     <span className="inline-block w-2 h-2 mt-2 mr-2 bg-white rounded-full"></span>
@@ -117,3 +120,4 @@ export default function AboutSection() {
     </section>
   )
 }
+
