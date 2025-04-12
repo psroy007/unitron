@@ -63,37 +63,43 @@ export default function AboutSection() {
             </motion.div>
 
             <motion.div className="flex flex-col justify-center space-y-6" variants={itemVariants}>
-              <div className="p-6 bg-spider-dark-blue/20 rounded-lg comic-panel">
-              <h3 className="mb-4 text-2xl font-bold text-white font-comic underline decoration-red-500 underline-offset-4">ENTER THE TECH-VERSE</h3>
-                <p className="text-gray-300 font-comic">
-                  UNiTRON is Future Institute of Technology's flagship technical festival, bringing together the
+              {[
+                {
+                  title: 'ENTER THE TECH-VERSE',
+                  content: `UNiTRON is Future Institute of Technology's flagship technical festival, bringing together the
                   brightest minds from across the multiverse of technology. This year, we're diving into the
                   Spider-Verse theme to create an immersive experience that blends cutting-edge tech with the excitement
-                  of parallel dimensions.
-                </p>
-              </div>
-
-              <div className="p-6 bg-spider-dark-blue/20 rounded-lg comic-panel">
-              <h3 className="mb-4 text-2xl font-bold text-white font-comic underline decoration-red-500 underline-offset-4">WHY PARTICIPATE?</h3>
-                <ul className="space-y-2 text-gray-300">
-                  <li className="flex items-start">
-                    <span className="inline-block w-2 h-2 mt-2 mr-2 bg-white rounded-full"></span>
-                    <span className="font-comic">Showcase your technical prowess across multiple dimensions</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block w-2 h-2 mt-2 mr-2 bg-white rounded-full"></span>
-                    <span className="font-comic">Network with industry experts and fellow tech enthusiasts</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block w-2 h-2 mt-2 mr-2 bg-white rounded-full"></span>
-                    <span className="font-comic">Win exciting prizes and recognition for your innovations</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block w-2 h-2 mt-2 mr-2 bg-white rounded-full"></span>
-                    <span className="font-comic">Experience workshops and talks from tech industry leaders</span>
-                  </li>
-                </ul>
-              </div>
+                  of parallel dimensions.`
+                },
+                {
+                  title: 'WHY PARTICIPATE?',
+                  content: (
+                    <ul className="space-y-2 text-gray-300">
+                      {[
+                        'Showcase your technical prowess across multiple dimensions',
+                        'Network with industry experts and fellow tech enthusiasts',
+                        'Win exciting prizes and recognition for your innovations',
+                        'Experience workshops and talks from tech industry leaders'
+                      ].map((point, idx) => (
+                        <li key={idx} className="flex items-start">
+                          <span className="inline-block w-2 h-2 mt-2 mr-2 bg-white rounded-full"></span>
+                          <span className="font-comic">{point}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )
+                }
+              ].map(({ title, content }, i) => (
+                <div
+                  key={i}
+                  className="min-h-[22rem] flex flex-col justify-start p-6 bg-spider-dark-blue/20 rounded-lg comic-panel"
+                >
+                  <h3 className="mb-4 text-2xl font-bold text-white font-comic underline decoration-red-500 underline-offset-4">
+                    {title}
+                  </h3>
+                  <div className="text-gray-300 font-comic">{content}</div>
+                </div>
+              ))}
             </motion.div>
           </div>
 
