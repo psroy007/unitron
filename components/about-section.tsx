@@ -98,22 +98,20 @@ export default function AboutSection() {
           </div>
 
           <motion.div className="grid grid-cols-2 gap-4 mt-12 sm:grid-cols-4" variants={itemVariants}>
-            <div className="p-6 text-center bg-spider-dark-blue/20 rounded-lg comic-panel">
-              <h4 className="text-4xl font-bold text-spider-red font-comic">3+</h4>
-              <p className="mt-2 text-gray-300 font-comic">Days of Events</p>
-            </div>
-            <div className="p-6 text-center bg-spider-dark-blue/20 rounded-lg comic-panel">
-              <h4 className="text-4xl font-bold text-spider-blue font-comic">20+</h4>
-              <p className="mt-2 text-gray-300 font-comic">Technical Events</p>
-            </div>
-            <div className="p-6 text-center bg-spider-dark-blue/20 rounded-lg comic-panel">
-              <h4 className="text-4xl font-bold text-spider-red font-comic">50+</h4>
-              <p className="mt-2 text-gray-300 font-comic">Colleges</p>
-            </div>
-            <div className="p-6 text-center bg-spider-dark-blue/20 rounded-lg comic-panel">
-              <h4 className="text-4xl font-bold text-spider-blue font-comic">5000+</h4>
-              <p className="mt-2 text-gray-300 font-comic">Participants</p>
-            </div>
+            {[
+              { count: '3+', color: 'text-spider-red', label: 'Days of Events' },
+              { count: '20+', color: 'text-spider-blue', label: 'Technical Events' },
+              { count: '50+', color: 'text-spider-red', label: 'Colleges' },
+              { count: '5000+', color: 'text-spider-blue', label: 'Participants' },
+            ].map(({ count, color, label }, index) => (
+              <div
+                key={index}
+                className="flex flex-col justify-center items-center h-40 p-6 text-center bg-spider-dark-blue/20 rounded-lg comic-panel"
+              >
+                <h4 className={`text-4xl font-bold ${color} font-comic`}>{count}</h4>
+                <p className="mt-2 text-gray-300 font-comic">{label}</p>
+              </div>
+            ))}
           </motion.div>
         </motion.div>
       </div>
