@@ -41,7 +41,7 @@ export default function ContactSection() {
             </h2>
             <div className="w-24 h-1 mx-auto mt-4 bg-spider-blue"></div>
             <p className="max-w-2xl mx-auto mt-6 text-gray-300 font-comic">
-              Have questions about Unitron? Reach out to us through any of these channels.
+              Have questions about UNiTRON? Reach out to us through any of these channels.
             </p>
           </motion.div>
 
