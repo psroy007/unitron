@@ -37,9 +37,9 @@ export default function AboutSection() {
           animate={isInView ? "visible" : "hidden"}
         >
           <motion.div className="mb-12 text-center" variants={itemVariants}>
-            <h2 className="inline-block text-4xl font-bold text-white md:text-5xl font-comic">
-              ABOUT <span className="text-white">UNiTRON</span>
-            </h2>
+          <h2 className="text-white text-4xl inline-block md:text-5xl font-comic font-bold">ABOUT UN</h2>
+          <span className="text-white text-4xl inline-block md:text-5xl font-comic">i</span>
+          <h2 className="text-white text-4xl inline-block md:text-5xl font-comic font-bold">TRON</h2>
             <div className="w-24 h-1 mx-auto mt-4 bg-spider-blue"></div>
           </motion.div>
 
