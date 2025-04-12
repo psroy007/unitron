@@ -341,7 +341,7 @@ export default function EventsPage() {
     },
     {
       id: 20,
-      title: "Web of Hints",
+      title: "Quantum Web Quiz",
       category: "Non-Tech",
       description:
         "Solve cryptic clues, swing past obstacles, and find the hidden treasure!",
