@@ -111,7 +111,7 @@ export default function EventDetailPage() {
       venue: "College Campus",
       team: "3-4 members",
       registration: "₹400 (re-entry: ₹250), TTT MEMBERS: ₹350 (re-entry: ₹150)",
-      prizes: "₹6000 + ₹3500",
+      prizes: "₹6000 + ₹4000",
       featured: false,
       rules: [
         "A team can have 2 to 4 members.",
