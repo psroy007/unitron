@@ -341,7 +341,7 @@ export default function EventsPage() {
     },
     {
       id: 20,
-      title: "Quantum Web Quiz",
+      title: "Web of Hints",
       category: "Non-Tech",
       description:
         "Solve cryptic clues, swing past obstacles, and find the hidden treasure!",
@@ -426,7 +426,7 @@ export default function EventsPage() {
     },
     {
       id: 25,
-      title: "Web of Wits",
+      title: "Quantum Web Quiz",
       category: "Non-Tech",
       description:
         "Only the smartest Spideys can crack this web of tech questions!",
