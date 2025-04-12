@@ -31,7 +31,7 @@ export default function EventsPage() {
       venue: "College Campus",
       team: "2-4 members",
       registration: "₹700",
-      prizes: "₹12,000 + ₹8,000",
+      prizes: "1st: ₹12,000, 2nd: ₹8,000",
       featured: true,
     },
     {
@@ -48,7 +48,7 @@ export default function EventsPage() {
       venue: "College Campus",
       team: "2-4 members",
       registration: "₹400 (re-entry: ₹250), TTT MEMBERS: ₹350 (re-entry: ₹150)",
-      prizes: "₹6000 + ₹4000",
+      prizes: "1st: ₹6000, 2nd: ₹4000",
       featured: true,
     },
     {
@@ -65,7 +65,7 @@ export default function EventsPage() {
       venue: "College Campus",
       team: "2-4 members",
       registration: "₹400 (re-entry: ₹250), TTT MEMBERS: ₹300 (re-entry: ₹150)",
-      prizes: "₹5000 + ₹3000 + ₹2000",
+      prizes: "1st: ₹5000, 2nd: ₹3000, 3rd: ₹2000",
       featured: true,
     },
     {
@@ -82,7 +82,7 @@ export default function EventsPage() {
       venue: "College Campus",
       team: "Maximum 4 members",
       registration: "₹150 (re-entry: ₹80)",
-      prizes: "₹1500 + ₹1000 + ₹500",
+      prizes: "1st: ₹1500, 2nd: ₹1000, 3rd: ₹500",
       featured: false,
     },
     {
@@ -115,7 +115,7 @@ export default function EventsPage() {
       venue: "College Campus",
       team: "2-3 members",
       registration: "₹120",
-      prizes: "₹600 + ₹400",
+      prizes: "1st: ₹600, 2nd: ₹400",
       featured: true,
     },
     {
@@ -132,7 +132,7 @@ export default function EventsPage() {
       venue: "College Campus",
       team: "Individual",
       registration: "₹80",
-      prizes: "₹500 + ₹300",
+      prizes: "1st: ₹500, 2nd: ₹300",
       featured: true,
     },
     {
@@ -145,11 +145,11 @@ export default function EventsPage() {
       longDescription:
         "The multiverse is under attack! A sinister cyber-villain is tampering with digital dimensions, leaving cryptic clues across cyberspace. As a cyber-Spidey, your mission is to track down vulnerabilities, decrypt codes, and recover lost data before chaos consumes the Spider-Verse. Do you have what it takes to web your way to victory?",
       date: "May 4",
-      time: "9:00 AM - 5:00 PM",
+      time: "10:00 AM - 01:00 PM",
       venue: "College Campus",
       team: "1-2 Members",
       registration: "₹80",
-      prizes: "₹500 + ₹300",
+      prizes: "1st: ₹500, 2nd: ₹300",
       featured: true,
     },
     {
