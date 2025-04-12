@@ -25,7 +25,7 @@ export default function AboutSection() {
   }
 
   return (
-    <section id="about" className="relative py-20 overflow-hidden">
+    <section id="UNiTRON" className="relative py-20 overflow-hidden">
       {/* Spider-Verse comic panel background */}
       {/* <div className="absolute inset-0 bg-[url('/placeholder.svg?height=1080&width=1920')] bg-cover bg-center opacity-5"></div> */}
 
@@ -66,7 +66,7 @@ export default function AboutSection() {
               <div className="p-6 bg-spider-dark-blue/20 rounded-lg comic-panel">
               <h3 className="mb-4 text-2xl font-bold text-white font-comic underline decoration-red-500 underline-offset-4">ENTER THE TECH-VERSE</h3>
                 <p className="text-gray-300 font-comic">
-                  Unitron is Future Institute of Technology's flagship technical festival, bringing together the
+                  UNiTRON is Future Institute of Technology's flagship technical festival, bringing together the
                   brightest minds from across the multiverse of technology. This year, we're diving into the
                   Spider-Verse theme to create an immersive experience that blends cutting-edge tech with the excitement
                   of parallel dimensions.
