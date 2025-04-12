@@ -1110,6 +1110,14 @@ export default function EventDetailPage() {
                       <div className="flex items-start">
                         <Trophy className="w-5 h-5 mt-1 mr-3 text-spider-red" />
                         <div>
+                          <h3 className="text-sm font-medium text-white">Registration Fees</h3>
+                          <p className="text-white">{event.registration}</p>
+                        </div>
+                      </div>
+
+                      <div className="flex items-start">
+                        <Trophy className="w-5 h-5 mt-1 mr-3 text-spider-red" />
+                        <div>
                           <h3 className="text-sm font-medium text-white">Prizes</h3>
                           <p className="text-white">{event.prizes}</p>
                         </div>
