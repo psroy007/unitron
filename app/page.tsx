@@ -45,14 +45,10 @@ export default function Home() {
               <ContactSection />
               <Footer />
             </motion.div>
-            <div className="text-center text-white mt-8 px-4 sm:px-6 lg:px-8">
-              <h2 className="text-xl font-bold">Enter the Tech-Verse: Where Innovation Meets the Multiverse</h2>
-              <p className="text-lg mt-2">May 2nd, 3rd and 4th, 2025</p>
-              <p className="text-lg">Future Institute of Technology</p>
-            </div>
           </>
         )}
       </AnimatePresence>
     </main>
   )
 }
+
