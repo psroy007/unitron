@@ -24,14 +24,14 @@ export default function EventsSection() {
       title: "Robo Combat (Weapon)",
       category: "Robotics",
       description:
-        "Battle it out in an epic robo showdown—only the strongest bot wins!",
+        "Design a monster, not a machine — and let it feast on metal in the pit.",
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "The Spider-Verse has seen its fair share of battles, but this time, it's mechanized! Design and control a combat robot to fight against other contenders in an intense arena battle.",
-      date: "May 2",
-      time: "11:00 AM - 7:00 PM",
-      venue: "Immersive Experience Lab",
-      team: "2-3 members",
+      date: "May 3-4",
+      time: "10:00 AM - 7:00 PM",
+      venue: "College Campus",
+      team: "2-4 members",
     },
     {
       id: 2,
@@ -42,10 +42,10 @@ export default function EventsSection() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "Design a robot capable of powerful kicks and precision passes in this high-energy robotic soccer challenge. Only the best-engineered bot will claim victory!",
-      date: "May 3",
-      time: "9:00 AM - 6:00 PM",
-      venue: "Hardware Innovation Lab",
-      team: "3-4 members",
+      date: "May 2-4",
+      time: "10:00 AM - 7:00 PM",
+      venue: "College Campus",
+      team: "2-4 members",
     },
     {
       id: 3,
@@ -56,10 +56,10 @@ export default function EventsSection() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "Speed through an intense track filled with obstacles and challenges. Only the fastest and most maneuverable robots will survive this high-stakes race through the Spider-Verse!",
-      date: "May 4",
-      time: "10:00 AM - 8:00 PM",
-      venue: "Secure Operations Center",
-      team: "1-3 members",
+      date: "May 2-4",
+      time: "10:00 AM - 7:00 PM",
+      venue: "College Campus",
+      team: "2-4 members",
     },
     {
       id: 6,
@@ -70,9 +70,9 @@ export default function EventsSection() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "Dive into the multiverse of web development! In this challenge, participants will create a fully responsive website based on a theme revealed at the start of the competition. You'll have 24 hours to design, code, and deploy your creation. Judges will evaluate your work based on design aesthetics, code quality, responsiveness, and creative implementation of the theme. Bring your HTML, CSS, and JavaScript skills to swing through this challenge!",
-      date: "May 3",
+      date: "May 2",
       time: "10:00 AM - 10:00 AM (next day)",
-      venue: "Tech Lab Alpha",
+      venue: "College Campus",
       team: "2-3 members",
     },
     {
@@ -84,9 +84,9 @@ export default function EventsSection() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "Enter a dimension where algorithms reign supreme! Code Dimension is an intense competitive coding contest where participants will face increasingly difficult programming challenges across multiple rounds. Each round represents a different dimension with unique problem-solving requirements. From time complexity optimization to space-efficient solutions, you'll need to adapt quickly to survive each dimension. Only the most versatile coders will make it to the final round!",
-      date: "May 2",
+      date: "May 2-3",
       time: "2:00 PM - 6:00 PM",
-      venue: "Quantum Computing Center",
+      venue: "College Campus",
       team: "Individual",
     },
     {
@@ -98,10 +98,10 @@ export default function EventsSection() {
       image: "/placeholder.svg?height=400&width=600",
       longDescription:
         "The multiverse is under attack! A sinister cyber-villain is tampering with digital dimensions, leaving cryptic clues across cyberspace. As a cyber-Spidey, your mission is to track down vulnerabilities, decrypt codes, and recover lost data before chaos consumes the Spider-Verse. Do you have what it takes to web your way to victory?",
-      date: "May 3",
-      time: "9:00 AM - 5:00 PM",
-      venue: "AI Research Wing",
-      team: "Individual",
+      date: "May 4",
+      time: "10:00 AM - 01:00 PM",
+      venue: "College Campus",
+      team: "1-2 Members",
     },
   ]
 
