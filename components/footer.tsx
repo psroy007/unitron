@@ -20,7 +20,11 @@ export default function Footer() {
       <div className="container relative z-10 px-4 mx-auto">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
-            <h3 className="mb-4 text-xl font-bold text-white font-comic">UNiTRON</h3>
+            <div className="flex">
+              <h3 className="mb-4 text-xl font-bold text-white font-comic">UN</h3>
+              <span className="mb-4 text-xl text-white font-comic">i</span>
+              <h3 className="mb-4 text-xl font-bold text-white font-comic">TRON</h3>
+            </div>
             <p className="text-gray-400 font-comic">
               Future Institute of Technology's flagship technical festival, bringing together the brightest minds from
               across the multiverse of technology.
@@ -162,3 +166,4 @@ export default function Footer() {
     </footer>
   )
 }
+
