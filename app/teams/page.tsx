@@ -447,7 +447,7 @@ export default function TeamSection() {
               </GlitchEffect>
               <div className="w-24 h-1 mx-auto mt-4 bg-spider-blue"></div>
               <p className="max-w-2xl mx-auto mt-6 text-gray-300 font-comic">
-                Meet the amazing team behind Unitron - the multiverse of talented individuals who make this event
+                Meet the amazing team behind UNiTRON - the multiverse of talented individuals who make this event
                 possible.
               </p>
             </motion.div>
