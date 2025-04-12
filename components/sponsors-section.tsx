@@ -49,7 +49,7 @@ export default function SponsorsSection() {
             </h2>
             <div className="w-24 h-1 mx-auto mt-4 bg-spider-blue"></div>
             <p className="max-w-2xl mx-auto mt-6 text-gray-300">
-              Unitron is proudly supported by these amazing organizations from across the multiverse.
+              UNiTRON is proudly supported by these amazing organizations from across the multiverse.
             </p>
           </motion.div>
 
