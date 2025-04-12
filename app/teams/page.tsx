@@ -177,17 +177,6 @@ export default function TeamSection() {
       },
     },
     {
-      id: 8,
-      name: "Ayantika Das",
-      role: "Tech Head",
-      image: "/images/Ayantika.jpg",
-      socials: {
-        twitter: "#",
-        linkedin: "#",
-        github: "#",
-      },
-    },
-    {
       id: 9,
       name: "Debayan Saha",
       role: "Tech Head",
