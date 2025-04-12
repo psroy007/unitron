@@ -295,9 +295,9 @@ export default function EventDetailPage() {
       longDescription:
         "The multiverse is under attack! A sinister cyber-villain is tampering with digital dimensions, leaving cryptic clues across cyberspace. As a cyber-Spidey, your mission is to track down vulnerabilities, decrypt codes, and recover lost data before chaos consumes the Spider-Verse. Do you have what it takes to web your way to victory?",
       date: "May 4",
-      time: "9:00 AM - 5:00 PM",
+      time: "10:00 AM - 01:00 PM",
       venue: "College Campus",
-      team: "Individual",
+      team: "1-2 Members",
       registration: "₹80",
       prizes: "₹500 + ₹300",
       featured: true,
