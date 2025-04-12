@@ -19,11 +19,11 @@ export default function GalleryPage() {
     {
       id: 1,
       src: "/gallary/Inaguration.jpg?height=600&width=800",
-      alt: "Unitron 2024 Opening Ceremony",
+      alt: "UNiTRON 2024 Opening Ceremony",
       category: "events",
       year: "2024",
       description:
-        "The grand opening ceremony of Unitron 2024 featuring a spectacular light show and holographic displays.",
+        "The grand opening ceremony of UNiTRON 2024 featuring a spectacular light show and holographic displays.",
     },
     // {
     //   id: 2,
@@ -135,7 +135,7 @@ export default function GalleryPage() {
     //   alt: "Closing Ceremony",
     //   category: "events",
     //   year: "2022",
-    //   description: "The memorable closing ceremony of Unitron 2022 with awards presentation and performances.",
+    //   description: "The memorable closing ceremony of UNiTRON 2022 with awards presentation and performances.",
     // },
   ]
 
@@ -192,11 +192,11 @@ export default function GalleryPage() {
           >
             <GlitchEffect>
               <h1 className="text-4xl font-bold text-white md:text-5xl font-comic">
-                UNITRON GALLERY</h1>
+                UNiTRON GALLERY</h1>
             </GlitchEffect>
             <div className="w-24 h-1 mx-auto mt-4 bg-spider-blue"></div>
             <p className="max-w-2xl mx-auto mt-6 text-gray-300 font-comic">
-              Explore moments from previous Unitron events across the multiverse of technology. Witness the evolution of
+              Explore moments from previous UNiTRON events across the multiverse of technology. Witness the evolution of
               innovation and creativity through the years.
             </p>
           </motion.div>
