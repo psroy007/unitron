@@ -433,9 +433,7 @@ export default function EventsSection() {
     Stay tuned for an exciting lineup of events that will challenge your skills and creativity. 
     The multiverse of technology awaits you!
   </p>
-</section>
-
-    
+</section>  
 
   )
 }
