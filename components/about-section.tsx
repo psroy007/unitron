@@ -48,7 +48,7 @@ export default function AboutSection() {
               <div className="absolute inset-0 bg-gradient-to-r from-spider-red to-spider-blue opacity-20"></div>
               {/* Spider-Verse themed event image */}
               <video
-                  src="/videos/about.mp4"
+                  src="/videos/about2.mp4"
                   width={800}
                   height={600}
                   className="object-cover w-full h-full"
