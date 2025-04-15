@@ -6,17 +6,20 @@ export default function LoadingScreen() {
       {/* Video for desktop view */}
       <video
         className="hidden sm:block w-auto h-auto max-w-full max-h-full object-cover sm:scale-100"
-        src="/videos/intro3.mp4"
+        src="/videos/intro2.mp4"
         autoPlay
         loop
         muted
         preload="auto" // Preload the video
       />
-      {/* GIF for mobile view */}
-      <img
+      {/* Video for mobile view */}
+      <video
         className="block sm:hidden w-auto h-auto max-w-full max-h-full object-cover scale-125"
-        src="/videos/loading-mobile.gif"
-        alt="Loading animation"
+        src="/videos/intro2.mp4"
+        autoPlay
+        loop
+        muted
+        preload="auto" // Preload the video
       />
     </div>
   );
