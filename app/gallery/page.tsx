@@ -92,7 +92,7 @@ export default function GalleryPage() {
     },
     {
       id: 7,
-      src: "/gallary/bottle_flip.JPG",
+      src: "/gallary/Bottle_flip.JPG",
       alt: "Bottle Flip",
       category: "competitions",
       year: "2024",
