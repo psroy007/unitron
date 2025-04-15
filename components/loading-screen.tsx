@@ -10,6 +10,7 @@ export default function LoadingScreen() {
         autoPlay
         loop
         muted
+        preload="auto" // Preload the video
       />
       {/* Video for mobile view */}
       <video
@@ -18,6 +19,7 @@ export default function LoadingScreen() {
         autoPlay
         loop
         muted
+        preload="auto" // Preload the video
       />
     </div>
   );
