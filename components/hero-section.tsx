@@ -44,9 +44,10 @@ export default function HeroSection() {
         <video
           ref={videoRef}
           className="w-full h-full object-cover"
-          src="/videos/new_home.mp4"
+          src="/videos/homepage.mp4"
           autoPlay
           loop
+          muted
           
         />
       </div>
@@ -99,5 +100,3 @@ export default function HeroSection() {
     </section>
   )
 }
-
-
