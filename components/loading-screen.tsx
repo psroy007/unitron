@@ -12,14 +12,11 @@ export default function LoadingScreen() {
         muted
         preload="auto" // Preload the video
       />
-      {/* Video for mobile view */}
-      <video
+      {/* GIF for mobile view */}
+      <img
         className="block sm:hidden w-auto h-auto max-w-full max-h-full object-cover scale-125"
-        src="/videos/loading-mobile.mp4"
-        autoPlay
-        loop
-        muted
-        preload="auto" // Preload the video
+        src="/videos/loading-mobile.gif"
+        alt="Loading animation"
       />
     </div>
   );
