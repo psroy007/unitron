@@ -27,7 +27,7 @@ export default function GalleryPage() {
     },
     {
       id: 2,
-      src: "/gallary/unitron_2024_launch.jpg",
+      src: "/gallary/unitron_2024_launch.JPG",
       alt: "Unitron 2024 Launch Event",
       category: "events",
       year: "2024",
@@ -92,7 +92,7 @@ export default function GalleryPage() {
     },
     {
       id: 7,
-      src: "/gallary/bottle_flip.jpg",
+      src: "/gallary/bottle_flip.JPG",
       alt: "Bottle Flip",
       category: "competitions",
       year: "2024",
@@ -100,7 +100,7 @@ export default function GalleryPage() {
     },
     {
       id: 8,
-      src: "/gallary/misc.jpg",
+      src: "/gallary/misc.JPG",
       alt: "CANVAS",
       category: "exhibitions",
       year: "2024",
@@ -132,7 +132,7 @@ export default function GalleryPage() {
     },
     {
       id: 12,
-      src: "/gallary/stalls.jpg",
+      src: "/gallary/stalls.JPG",
       alt: "2024 Sponsors",
       category: "events",
       year: "2024",
@@ -156,7 +156,7 @@ export default function GalleryPage() {
     },
     {
       id: 15,
-      src: "/gallary/event_registration.jpg",
+      src: "/gallary/event_registration.JPG",
       alt: "Event Registration",
       category: "events",
       year: "2024",
