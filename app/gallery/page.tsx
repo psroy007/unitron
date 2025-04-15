@@ -19,11 +19,19 @@ export default function GalleryPage() {
     {
       id: 1,
       src: "/gallary/Inaguration.jpg?height=600&width=800",
-      alt: "UNiTRON 2024 Opening Ceremony",
+      alt: "Unitron 2024 Opening Ceremony",
       category: "events",
       year: "2024",
       description:
-        "The grand opening ceremony of UNiTRON 2024 featuring a spectacular light show and holographic displays.",
+        "The grand opening ceremony of Unitron 2024 featuring a spectacular light show and holographic displays.",
+    },
+    {
+      id: 2,
+      src: "/gallary/unitron_2024_launch.jpg",
+      alt: "Unitron 2024 Launch Event",
+      category: "events",
+      year: "2024",
+      description: "The launch event of Unitron 2024 with a keynote speech by our secretary and a live demonstration of projects.",
     },
     // {
     //   id: 2,
@@ -49,21 +57,14 @@ export default function GalleryPage() {
     //   year: "2024",
     //   description: "Visitors experiencing cutting-edge augmented and virtual reality projects developed by students.",
     // },
-    {
-      id: 2,
-      src: "/gallary/robo-soccer2.jpg?height=600&width=800",
-      alt: "Robo-Soccer",
-      category: "competition",
-      year: "2024",
-      description: "Students playing soccer using hand-made robots.",
-    },
+
     {
       id: 3,
       src: "/gallary/IMG-20240422-WA0267.jpg?height=600&width=800",
       alt: "Carrom Pool",
       category: "competitions",
       year: "2024",
-      description: "Players enjoying carrom pool event.",
+      description: "Participants competing in an intense game of Carrom Pool during the Unitron 2024 competitions.",
     },
     {
       id: 4,
@@ -78,65 +79,89 @@ export default function GalleryPage() {
       src: "/gallary/robo_comp.JPG?height=600&width=800",
       alt: "Robotics Competition",
       category: "competitions",
-      year: "2023",
+      year: "2024",
       description: "Robots navigating through a complex maze during our annual robotics challenge.",
     },
-    // {
-    //   id: 6,
-    //   src: "/placeholder.svg?height=600&width=800",
-    //   alt: "Guest Speaker Session",
-    //   category: "talks",
-    //   year: "2023",
-    //   description: "Industry experts sharing insights on the future of artificial intelligence and machine learning.",
-    // },
-    // {
-    //   id: 7,
-    //   src: "/placeholder.svg?height=600&width=800",
-    //   alt: "Cultural Night",
-    //   category: "events",
-    //   year: "2023",
-    //   description: "Students showcasing their talents during the cultural night celebration.",
-    // },
-    // {
-    //   id: 8,
-    //   src: "/placeholder.svg?height=600&width=800",
-    //   alt: "IoT Workshop",
-    //   category: "workshops",
-    //   year: "2023",
-    //   description: "Hands-on Internet of Things workshop where participants built smart home devices.",
-    // },
-    // {
-    //   id: 9,
-    //   src: "/placeholder.svg?height=600&width=800",
-    //   alt: "Coding Competition",
-    //   category: "competitions",
-    //   year: "2022",
-    //   description: "Intense coding competition where participants solved complex algorithmic challenges.",
-    // },
-    // {
-    //   id: 10,
-    //   src: "/placeholder.svg?height=600&width=800",
-    //   alt: "Tech Exhibition",
-    //   category: "exhibitions",
-    //   year: "2022",
-    //   description: "Innovative student projects on display at our annual technology exhibition.",
-    // },
-    // {
-    //   id: 11,
-    //   src: "/placeholder.svg?height=600&width=800",
-    //   alt: "Drone Racing",
-    //   category: "competitions",
-    //   year: "2022",
-    //   description: "Exciting drone racing competition through an obstacle course designed by students.",
-    // },
-    // {
-    //   id: 12,
-    //   src: "/placeholder.svg?height=600&width=800",
-    //   alt: "Closing Ceremony",
-    //   category: "events",
-    //   year: "2022",
-    //   description: "The memorable closing ceremony of UNiTRON 2022 with awards presentation and performances.",
-    // },
+    {
+      id: 6,
+      src: "/gallary/robo-soccer2.jpg?height=600&width=800",
+      alt: "Robo-Soccer",
+      category: "competition",
+      year: "2024",
+      description: "Students playing soccer using hand-made robots.",
+    },
+    {
+      id: 7,
+      src: "/gallary/bottle_flip.jpg",
+      alt: "Bottle Flip",
+      category: "competitions",
+      year: "2024",
+      description: "Students are trying their best to win the flip challenge.",
+    },
+    {
+      id: 8,
+      src: "/gallary/misc.jpg",
+      alt: "CANVAS",
+      category: "exhibitions",
+      year: "2024",
+      description: "Our wall is decorated with our students' art and paintings.",
+    },
+    {
+      id: 9,
+      src: "/gallary/Competitive_Programming.JPG",
+      alt: "Coding Competition",
+      category: "competitions",
+      year: "2024",
+      description: "Intense coding competition where participants solved complex algorithmic challenges.",
+    },
+    {
+      id: 10,
+      src: "/gallary/gaming.jpg",
+      alt: "Gaming",
+      category: "exhibitions",
+      year: "2024",
+      description: "An intense war can be seen in our gaming event, get ready to be the champion.",
+    },
+    {
+      id: 11,
+      src: "/gallary/uno.jpg",
+      alt: "UNO",
+      category: "competitions",
+      year: "2024",
+      description: "Showcase your trump card for the ultimate move in the verse of UNO.",
+    },
+    {
+      id: 12,
+      src: "/gallary/stalls.jpg",
+      alt: "2024 Sponsors",
+      category: "events",
+      year: "2024",
+      description: "Here are the sponsors who play a very crucial role for the success of UNiTRON.",
+    },
+    {
+      id: 13,
+      src: "/gallary/unitron_wall.jpg",
+      alt: "Hands Behind UNiTRON",
+      category: "events",
+      year: "2024",
+      description: "The hardwork, the passion, the determination of each and everyone behind the success of UNiTRON.",
+    },
+    {
+      id: 14,
+      src: "/gallary/core_mem.jpg",
+      alt: "Core Team",
+      category: "events",
+      year: "2024",
+      description: "Full team with each and every coordinators and volunteers celebrating the success of UNiTRON 2024.",
+    },
+    {
+      id: 15,
+      src: "/gallary/event_registration.jpg",
+      alt: "Event Registration",
+      category: "events",
+      year: "2024",
+      description: "Participants are highly excited to enroll for new events and our volunteers are trying their best.",
+    },
   ]
 
   const categories = [
@@ -192,11 +217,12 @@ export default function GalleryPage() {
           >
             <GlitchEffect>
               <h1 className="text-4xl font-bold text-white md:text-5xl font-comic">
-                UNiTRON GALLERY</h1>
+                UNITRON <span className="text-white">GALLERY</span>
+              </h1>
             </GlitchEffect>
             <div className="w-24 h-1 mx-auto mt-4 bg-spider-blue"></div>
             <p className="max-w-2xl mx-auto mt-6 text-gray-300 font-comic">
-              Explore moments from previous UNiTRON events across the multiverse of technology. Witness the evolution of
+              Explore moments from previous Unitron events across the multiverse of technology. Witness the evolution of
               innovation and creativity through the years.
             </p>
           </motion.div>
