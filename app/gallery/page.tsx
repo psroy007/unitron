@@ -19,19 +19,19 @@ export default function GalleryPage() {
     {
       id: 1,
       src: "/gallary/Inaguration.jpg?height=600&width=800",
-      alt: "Unitron 2024 Opening Ceremony",
+      alt: "UNiTRON 2024 Opening Ceremony",
       category: "events",
       year: "2024",
       description:
-        "The grand opening ceremony of Unitron 2024 featuring a spectacular light show and holographic displays.",
+        "The grand opening ceremony of UNiTRON 2024 featuring a spectacular light show and holographic displays.",
     },
     {
       id: 2,
-      src: "/gallary/unitron_2024_launch.JPG",
-      alt: "Unitron 2024 Launch Event",
+      src: "/gallary/unitron_2024_launch.jpg",
+      alt: "UNiTRON 2024 Launch Event",
       category: "events",
       year: "2024",
-      description: "The launch event of Unitron 2024 with a keynote speech by our secretary and a live demonstration of projects.",
+      description: "The launch event of UNiTRON 2024 with a keynote speech by our secretary and a live demonstration of projects.",
     },
     // {
     //   id: 2,
@@ -64,7 +64,7 @@ export default function GalleryPage() {
       alt: "Carrom Pool",
       category: "competitions",
       year: "2024",
-      description: "Participants competing in an intense game of Carrom Pool during the Unitron 2024 competitions.",
+      description: "Participants competing in an intense game of Carrom Pool during the UNiTRON 2024 competitions.",
     },
     {
       id: 4,
@@ -92,7 +92,7 @@ export default function GalleryPage() {
     },
     {
       id: 7,
-      src: "/gallary/Bottle_flip.JPG",
+      src: "/gallary/bottle_flip.jpg",
       alt: "Bottle Flip",
       category: "competitions",
       year: "2024",
@@ -100,7 +100,7 @@ export default function GalleryPage() {
     },
     {
       id: 8,
-      src: "/gallary/misc.JPG",
+      src: "/gallary/misc.jpg",
       alt: "CANVAS",
       category: "exhibitions",
       year: "2024",
@@ -132,7 +132,7 @@ export default function GalleryPage() {
     },
     {
       id: 12,
-      src: "/gallary/stalls.JPG",
+      src: "/gallary/stalls.jpg",
       alt: "2024 Sponsors",
       category: "events",
       year: "2024",
@@ -156,7 +156,7 @@ export default function GalleryPage() {
     },
     {
       id: 15,
-      src: "/gallary/event_registration.JPG",
+      src: "/gallary/event_registration.jpg",
       alt: "Event Registration",
       category: "events",
       year: "2024",
@@ -216,13 +216,16 @@ export default function GalleryPage() {
             transition={{ duration: 0.5 }}
           >
             <GlitchEffect>
-              <h1 className="text-4xl font-bold text-white md:text-5xl font-comic">
-                UNITRON <span className="text-white">GALLERY</span>
-              </h1>
+              <div className="flex">
+                <h1 className="text-4xl font-bold text-white md:text-5xl font-comic">
+                  UN </h1>
+                  <span className="text-4xl font-comic text-white md:text-5xl"> i</span>
+                  <h1 className="text-4xl font-bold text-white md:text-5xl font-comic">TRON GALLERY</h1>
+              </div>
             </GlitchEffect>
             <div className="w-24 h-1 mx-auto mt-4 bg-spider-blue"></div>
             <p className="max-w-2xl mx-auto mt-6 text-gray-300 font-comic">
-              Explore moments from previous Unitron events across the multiverse of technology. Witness the evolution of
+              Explore moments from previous UNiTRON events across the multiverse of technology. Witness the evolution of
               innovation and creativity through the years.
             </p>
           </motion.div>
