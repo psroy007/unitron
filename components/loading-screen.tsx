@@ -6,7 +6,7 @@ export default function LoadingScreen() {
       {/* Video for desktop view */}
       <video
         className="hidden sm:block w-auto h-auto max-w-full max-h-full object-cover sm:scale-100"
-        src="/videos/intro2.mp4"
+        src="/videos/spider_load.mp4"
         autoPlay
         loop
         muted
@@ -15,7 +15,7 @@ export default function LoadingScreen() {
       {/* Video for mobile view */}
       <video
         className="block sm:hidden w-auto h-auto max-w-full max-h-full object-cover scale-125"
-        src="/videos/intro2.mp4"
+        src="/videos/spider_load.mp4"
         autoPlay
         loop
         muted
