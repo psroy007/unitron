@@ -71,8 +71,8 @@ export default function EventDetailPage() {
       title: "Robo Combat (Weapon)",
       category: "Robotics",
       description:
-        "Design a monster, not a machine — and let it feast on metal in the pit.",
-      image: "/placeholder.svg?height=400&width=600",
+        "Design a monster, not a machine — and let it feast on metal in the pit.",
+      image: "../images/robo_combat.jpg?height=800&width=1000",
       longDescription:
         "The Spider-Verse has seen its fair share of battles, but this time, it's mechanized! Design and control a combat robot to fight against other contenders in an intense arena battle.",
       date: "May 3-4",
@@ -85,7 +85,7 @@ export default function EventDetailPage() {
       rules: [
         "Both active and passive weapons are permitted.",
         "A team can have a minimum of 2 and a maximum of 4 members.",
-        "Total 3 mins of gameplay to score points.",
+        "Total 3 mins of gameplay to score points.",
         "Weight of the Bot shall be 8 kg(wireless)",
       ],
       coordinators: [
@@ -103,7 +103,7 @@ export default function EventDetailPage() {
       category: "Robotics",
       description:
         "A high-tech soccer match where robots score like Spidey swings!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "../images/robo_kick.jpg?height=400&width=600",
       longDescription:
         "Design a robot capable of powerful kicks and precision passes in this high-energy robotic soccer challenge. Only the best-engineered bot will claim victory!",
       date: "May 2-4",
@@ -117,7 +117,7 @@ export default function EventDetailPage() {
         "A team can have 2 to 4 members.",
         "A team may comprise members from different colleges. No person shall be a member of multiple	teams.",
         "Robots are not allowed which are constructed using LEGO kits or its spare parts or any other readymade mechanism.",
-        "Intentional Damage to the arena may lead to disqualification of the bot.",
+        "Intentional Damage to the arena may lead to disqualification of the bot.",
       ],
       coordinators: [
         { name: "Soumojit Hazra", contact: "+91 86974 64829" },
@@ -134,7 +134,7 @@ export default function EventDetailPage() {
       category: "Robotics",
       description:
         "Build the fastest bot and race to victory through dangerous twists and turns!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "../images/deathrace.jpg?height=400&width=600",
       longDescription:
         "Speed through an intense track filled with obstacles and challenges. Only the fastest and most maneuverable robots will survive this high-stakes race through the Spider-Verse!",
       date: "May 2-4",
@@ -146,11 +146,11 @@ export default function EventDetailPage() {
       featured: false,
       rules: [
         "The team should consist of 2 to 4 members.",
-        "Weight should not exceed 3.0 kg.",
-        "Voltage: Maximum 18 volts, 10 Amps. Above 18 Volts and 10 Amps will not be allowed.",
+        "Weight should not exceed 3.0 kg.",
+        "Voltage: Maximum 18 volts, 10 Amps. Above 18 Volts and 10 Amps will not be allowed.",
         "Unethical behaviour could lead to disqualification.",
-        "Faculty coordinators have all the rights to take final decisions for any matter during the event .",
-        "If the Robot moves or falls off track, then the Robot would be placed back on the previous position.",
+        "Faculty coordinators have all the rights to take final decisions for any matter during the event .",
+        "If the Robot moves or falls off track, then the Robot would be placed back on the previous position.",
       ],
       coordinators: [
         { name: "Snehasish Das", contact: "+91 62900 87607" },
@@ -167,7 +167,7 @@ export default function EventDetailPage() {
       category: "Robotics",
       description:
         "Build a rocket and launch it high—just like Spidey's web swings!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/skyrocket.png?height=400&width=600",
       longDescription:
         "Compete in an exhilarating rocket-launching contest where height, accuracy, and design ingenuity matter. Will your rocket soar across dimensions?",
       date: "May 2-3",
@@ -178,10 +178,10 @@ export default function EventDetailPage() {
       prizes: "1st: ₹1500, 2nd: ₹1000, 3rd: ₹500",
       featured: false,
       rules: [
-        "In this event, participants have to make a ROCKET using plastic soft drink bottles.",
+        "In this event, participants have to make a ROCKET using plastic soft drink bottles.",
         "The rocket’s weight should not exceed 2 kg (with water).",
         "Any metal or wood attachments should not be used while making the rocket.",
-        "In order to build pressure inside the rocket, a hand pump is to be used. No other mechanical pump will be allowed.",
+        "In order to build pressure inside the rocket, a hand pump is to be used. No other mechanical pump will be allowed.",
       ],
       coordinators: [
         { name: "Dibyajyoti Jana", contact: "+91 81673 76966" },
@@ -225,7 +225,7 @@ export default function EventDetailPage() {
       category: "Coding",
       description:
         "Showcase your web development skills by creating innovative and responsive websites. Spin your web of code and design to capture the judges' attention.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "../images/web_slingers.jpg?height=400&width=600",
       longDescription:
         "Dive into the multiverse of web development! In this challenge, participants will create a fully responsive website based on a theme revealed at the start of the competition. You'll have 24 hours to design, code, and deploy your creation. Judges will evaluate your work based on design aesthetics, code quality, responsiveness, and creative implementation of the theme. Bring your HTML, CSS, and JavaScript skills to swing through this challenge!",
       date: "May 2",
@@ -258,7 +258,7 @@ export default function EventDetailPage() {
       category: "Coding",
       description:
         "Navigate through multiple dimensions of coding challenges. Solve complex problems with efficient algorithms and prove your coding prowess.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "../images/code_dimension.jpg?height=400&width=600",
       longDescription:
         "Enter a dimension where algorithms reign supreme! Code Dimension is an intense competitive coding contest where participants will face increasingly difficult programming challenges across multiple rounds. Each round represents a different dimension with unique problem-solving requirements. From time complexity optimization to space-efficient solutions, you'll need to adapt quickly to survive each dimension. Only the most versatile coders will make it to the final round!",
       date: "May 2-3",
@@ -291,7 +291,7 @@ export default function EventDetailPage() {
       category: "Coding",
       description:
         "Hackers from the Spider-Verse are breaching realities! Use your cyber skills to crack codes, decrypt messages, and outsmart villains in this ultimate Capture the Flag challenge. Only the smartest web-heads can restore balance!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/ctf.png?height=400&width=600",
       longDescription:
         "The multiverse is under attack! A sinister cyber-villain is tampering with digital dimensions, leaving cryptic clues across cyberspace. As a cyber-Spidey, your mission is to track down vulnerabilities, decrypt codes, and recover lost data before chaos consumes the Spider-Verse. Do you have what it takes to web your way to victory?",
       date: "May 4",
@@ -325,7 +325,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Gear up, squad up, and drop into the battleground as you fight to save—or conquer—the multiverse!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "../images/bgmi.png?height=400&width=600",
       longDescription:
         "In an alternate dimension, chaos reigns, and only the strongest Spideys will survive! Join the ultimate battle royale where precision, teamwork, and strategy determine who swings to victory. Will you emerge as the last Spidey standing, or will you be lost in the collapsing multiverse?",
       date: "May 2",
@@ -362,7 +362,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Quick reflexes and web-slinging tactics will decide the fate of the battle—are you ready?",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/freefire.png?height=400&width=600",
       longDescription:
         "The Spider-Verse is under siege, and only the fastest, smartest, and most agile warriors can defend it! In this high-speed survival showdown, dodge enemy fire, swing into action, and prove your supremacy in an epic Free Fire tournament.",
       date: "May 3",
@@ -399,7 +399,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Suit up, grab your gear, and take down the threats lurking in the Spider-Verse!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/codm.png?height=400&width=600",
       longDescription:
         "When villains from multiple dimensions join forces, it's up to you to stop them! Enter an intense Call of Duty showdown where strategy, precision, and web-enhanced reflexes are key. Whether in deathmatch, search and destroy, or battle royale, every shot counts in this war for the multiverse.",
       date: "May 4",
@@ -432,7 +432,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "A multiversal football tournament where Spidey skills meet insane goals!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/fifa.png?height=400&width=600",
       longDescription:
         "Football isn't just a game—it's a battle across dimensions! Lace up and take control of your team as you dribble past defenders, curve the ball like a web-line, and strike powerful goals in a FIFA Mobile tournament where champions are made.",
       date: "May 2",
@@ -465,7 +465,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Master the perfect web-assisted passes and outplay your rivals!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/pes.png?height=400&width=600",
       longDescription:
         "In this dimension, football has a Spider-Man twist! Experience precision gameplay and show off your dribbling skills as you face off against the best PES players. Will your team weave the perfect web of passes to victory?",
       date: "May 3",
@@ -498,7 +498,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Stealth, precision, and Spidey senses—only the best agents survive.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/valorant.png?height=400&width=600",
       longDescription:
         "The villains of the Spider-Verse are infiltrating every reality! As elite agents, you and your team must take them down using strategy, precise shots, and lightning-fast reflexes. Every round is a battle for survival—make every ability count!",
       date: "May 4",
@@ -531,7 +531,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Nitro boost your way through the multiverse—because Spidey swings fast, but you drive faster!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/asphalt.png?height=400&width=600",
       longDescription:
         "When different dimensions collide, only the fastest racers can navigate the chaos! Blaze through impossible tracks, pull off gravity-defying stunts, and cross the finish line in an adrenaline-fueled race through the Spider-Verse.",
       date: "May 2",
@@ -677,7 +677,7 @@ export default function EventDetailPage() {
       ],
       coordinators: [
         { name: "Qurratul Ann Irshad", contact: "+91 98755 92500" },
-        { name: "Arghya Saha", contact: "+91 82406 50524" },
+        { name: "Arghya Saha", contact: "+91 82406 50524" },
         { name: "Rajat Dey", contact: "+91 98748 55852" },
       ],
       gallery: [
@@ -727,7 +727,7 @@ export default function EventDetailPage() {
       category: "Non-Tech",
       description:
         "One path. Countless obstacles. Only those who leap with heart will land in victory.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/leap.png?height=400&width=600",
       longDescription:
         "Just like Miles Morales had to take a leap of faith, you must conquer a series of hurdles to prove your skills! Run, jump, and swing past obstacles in this exciting physical challenge that tests your agility and endurance.",
       date: "May 3-4",
@@ -746,7 +746,7 @@ export default function EventDetailPage() {
         "Event coordinators’ decisions are final.",
       ],
       coordinators: [
-        { name: "Arghya Saha", contact: "+91 82406 50524" },
+        { name: "Arghya Saha", contact: "+91 82406 50524" },
       ],
       gallery: [
         "/placeholder.svg?height=400&width=600",
@@ -760,7 +760,7 @@ export default function EventDetailPage() {
       category: "Non-Tech",
       description:
         "Freeze moments that even Spidey would stop swinging to admire—shoot your shot, web-head.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/spidylens.png?height=400&width=600",
       longDescription:
         "Channel your inner Peter Parker and snap breathtaking shots that tell a story! Whether it's action-packed moments or deep emotions, showcase your skills in a photography contest that celebrates creativity and vision.",
       date: "May 2-4",
@@ -779,7 +779,7 @@ export default function EventDetailPage() {
         "Cheating or misbehaviour will lead to disqualification.",
       ],
       coordinators: [
-        { name: "Arghya Saha", contact: "+91 82406 50524" },
+        { name: "Arghya Saha", contact: "+91 82406 50524" },
       ],
       gallery: [
         "/placeholder.svg?height=400&width=600",
@@ -793,7 +793,7 @@ export default function EventDetailPage() {
       category: "Non-Tech",
       description:
         "Weave color into chaos—where your brush becomes the web, and the canvas, your city.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/canvas.png?height=400&width=600",
       longDescription:
         "The multiverse is full of colors, styles, and unique Spider-heroes. Use your artistic talent to create a masterpiece that captures the essence of the Spider-Verse in this vibrant art event!",
       date: "May 2-4",
@@ -855,11 +855,11 @@ export default function EventDetailPage() {
     },
     {
       id: 25,
-      title: "Quantum Web Quiz",
+      title: "Quantum Web Quiz",
       category: "Non-Tech",
       description:
         "The web tests minds, not muscles—enter if your brain’s wired for war.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/quantum.png?height=400&width=600",
       longDescription:
         "Think you have the intellect of Peter Parker? Test your knowledge of technology, science, and the Spider-Verse in this electrifying quiz where only the wittiest web-heads prevail!",
       date: "May 2-3",
@@ -947,7 +947,7 @@ export default function EventDetailPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="relative aspect-[21/9]">
+            <div className="relative aspect-[23/11]">
               <Image src={event.image || "/placeholder.svg"} alt={event.title} fill className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-spider-dark via-spider-dark/70 to-transparent"></div>
 
@@ -1232,4 +1232,3 @@ export default function EventDetailPage() {
     </main>
   )
 }
-
