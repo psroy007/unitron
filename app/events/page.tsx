@@ -23,7 +23,7 @@ export default function EventsPage() {
       category: "Robotics",
       description:
         "Battle it out in an epic robo showdown—only the strongest bot wins!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/robo_combat.jpg?height=400&width=600",
       longDescription:
         "The Spider-Verse has seen its fair share of battles, but this time, it's mechanized! Design and control a combat robot to fight against other contenders in an intense arena battle.",
       date: "May 3-4",
@@ -40,7 +40,7 @@ export default function EventsPage() {
       category: "Robotics",
       description:
         "A high-tech soccer match where robots score like Spidey swings!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/robo_kick.jpg?height=400&width=600",
       longDescription:
         "Design a robot capable of powerful kicks and precision passes in this high-energy robotic soccer challenge. Only the best-engineered bot will claim victory!",
       date: "May 2-4",
@@ -57,7 +57,7 @@ export default function EventsPage() {
       category: "Robotics",
       description:
         "Build the fastest bot and race to victory through dangerous twists and turns!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/deathrace.jpg?height=400&width=600",
       longDescription:
         "Speed through an intense track filled with obstacles and challenges. Only the fastest and most maneuverable robots will survive this high-stakes race through the Spider-Verse!",
       date: "May 2-4",
@@ -74,7 +74,7 @@ export default function EventsPage() {
       category: "Robotics",
       description:
         "Build a rocket and launch it high—just like Spidey's web swings!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/skyrocket.jpg?height=400&width=600",
       longDescription:
         "Compete in an exhilarating rocket-launching contest where height, accuracy, and design ingenuity matter. Will your rocket soar across dimensions?",
       date: "May 2-3",
@@ -107,7 +107,7 @@ export default function EventsPage() {
       category: "Coding",
       description:
         "Showcase your web development skills by creating innovative and responsive websites. Spin your web of code and design to capture the judges' attention.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/web_slingers.jpg?height=400&width=600",
       longDescription:
         "Dive into the multiverse of web development! In this challenge, participants will create a fully responsive website based on a theme revealed at the start of the competition. You'll have 24 hours to design, code, and deploy your creation. Judges will evaluate your work based on design aesthetics, code quality, responsiveness, and creative implementation of the theme. Bring your HTML, CSS, and JavaScript skills to swing through this challenge!",
       date: "May 3",
@@ -124,7 +124,7 @@ export default function EventsPage() {
       category: "Coding",
       description:
         "Navigate through multiple dimensions of coding challenges. Solve complex problems with efficient algorithms and prove your coding prowess.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/code_dimension.jpg?height=400&width=600",
       longDescription:
         "Enter a dimension where algorithms reign supreme! Code Dimension is an intense competitive coding contest where participants will face increasingly difficult programming challenges across multiple rounds. Each round represents a different dimension with unique problem-solving requirements. From time complexity optimization to space-efficient solutions, you'll need to adapt quickly to survive each dimension. Only the most versatile coders will make it to the final round!",
       date: "May 2",
@@ -141,7 +141,7 @@ export default function EventsPage() {
       category: "Coding",
       description:
         "Hackers from the Spider-Verse are breaching realities! Use your cyber skills to crack codes, decrypt messages, and outsmart villains in this ultimate Capture the Flag challenge. Only the smartest web-heads can restore balance!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/ctf.jpg?height=400&width=600",
       longDescription:
         "The multiverse is under attack! A sinister cyber-villain is tampering with digital dimensions, leaving cryptic clues across cyberspace. As a cyber-Spidey, your mission is to track down vulnerabilities, decrypt codes, and recover lost data before chaos consumes the Spider-Verse. Do you have what it takes to web your way to victory?",
       date: "May 4",
@@ -158,7 +158,7 @@ export default function EventsPage() {
       category: "Gaming",
       description:
         "Gear up, squad up, and drop into the battleground as you fight to save—or conquer—the multiverse!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/bgmi.jpg?height=400&width=600",
       longDescription:
         "In an alternate dimension, chaos reigns, and only the strongest Spideys will survive! Join the ultimate battle royale where precision, teamwork, and strategy determine who swings to victory. Will you emerge as the last Spidey standing, or will you be lost in the collapsing multiverse?",
       date: "May 2",
@@ -175,7 +175,7 @@ export default function EventsPage() {
       category: "Gaming",
       description:
         "Quick reflexes and web-slinging tactics will decide the fate of the battle—are you ready?",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/freefire.jpg?height=400&width=600",
       longDescription:
         "The Spider-Verse is under siege, and only the fastest, smartest, and most agile warriors can defend it! In this high-speed survival showdown, dodge enemy fire, swing into action, and prove your supremacy in an epic Free Fire tournament.",
       date: "May 3",
@@ -192,7 +192,7 @@ export default function EventsPage() {
       category: "Gaming",
       description:
         "Suit up, grab your gear, and take down the threats lurking in the Spider-Verse!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/codm.jpg?height=400&width=600",
       longDescription:
         "When villains from multiple dimensions join forces, it's up to you to stop them! Enter an intense Call of Duty showdown where strategy, precision, and web-enhanced reflexes are key. Whether in deathmatch, search and destroy, or battle royale, every shot counts in this war for the multiverse.",
       date: "May 4",
@@ -209,7 +209,7 @@ export default function EventsPage() {
       category: "Gaming",
       description:
         "A multiversal football tournament where Spidey skills meet insane goals!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/fifa.jpg?height=400&width=600",
       longDescription:
         "Football isn't just a game—it's a battle across dimensions! Lace up and take control of your team as you dribble past defenders, curve the ball like a web-line, and strike powerful goals in a FIFA Mobile tournament where champions are made.",
       date: "May 2",
@@ -226,7 +226,7 @@ export default function EventsPage() {
       category: "Gaming",
       description:
         "Master the perfect web-assisted passes and outplay your rivals!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/pes.jpg?height=400&width=600",
       longDescription:
         "In this dimension, football has a Spider-Man twist! Experience precision gameplay and show off your dribbling skills as you face off against the best PES players. Will your team weave the perfect web of passes to victory?",
       date: "May 3",
@@ -243,7 +243,7 @@ export default function EventsPage() {
       category: "Gaming",
       description:
         "Stealth, precision, and Spidey senses—only the best agents survive.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/valorant.jpg?height=400&width=600",
       longDescription:
         "The villains of the Spider-Verse are infiltrating every reality! As elite agents, you and your team must take them down using strategy, precise shots, and lightning-fast reflexes. Every round is a battle for survival—make every ability count!",
       date: "May 4",
@@ -260,7 +260,7 @@ export default function EventsPage() {
       category: "Gaming",
       description:
         "Nitro boost your way through the multiverse—because Spidey swings fast, but you drive faster!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/asphalt.jpg?height=400&width=600",
       longDescription:
         "When different dimensions collide, only the fastest racers can navigate the chaos! Blaze through impossible tracks, pull off gravity-defying stunts, and cross the finish line in an adrenaline-fueled race through the Spider-Verse.",
       date: "May 2",
@@ -362,7 +362,7 @@ export default function EventsPage() {
       category: "Non-Tech",
       description:
         "Push your limits and overcome every obstacle in this ultimate Spidey challenge!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/leap.jpg?height=400&width=600",
       longDescription:
         "Just like Miles Morales had to take a leap of faith, you must conquer a series of hurdles to prove your skills! Run, jump, and swing past obstacles in this exciting physical challenge that tests your agility and endurance.",
       date: "May 3-4",
@@ -379,7 +379,7 @@ export default function EventsPage() {
       category: "Non-Tech",
       description:
         "Capture the multiverse through the eyes of a true Spidey-photographer!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/spidylens.jpg?height=400&width=600",
       longDescription:
         "Channel your inner Peter Parker and snap breathtaking shots that tell a story! Whether it's action-packed moments or deep emotions, showcase your skills in a photography contest that celebrates creativity and vision.",
       date: "May 2-4",
@@ -396,7 +396,7 @@ export default function EventsPage() {
       category: "Non-Tech",
       description:
         "Paint, sketch, and bring the Spider-Verse to life with your creativity!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/canvas.jpg?height=400&width=600",
       longDescription:
         "The multiverse is full of colors, styles, and unique Spider-heroes. Use your artistic talent to create a masterpiece that captures the essence of the Spider-Verse in this vibrant art event!",
       date: "May 2-4",
@@ -430,7 +430,7 @@ export default function EventsPage() {
       category: "Non-Tech",
       description:
         "Only the smartest Spideys can crack this web of tech questions!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/quantum.jpg?height=400&width=600",
       longDescription:
         "Think you have the intellect of Peter Parker? Test your knowledge of technology, science, and the Spider-Verse in this electrifying quiz where only the wittiest web-heads prevail!",
       date: "May 2-3",
