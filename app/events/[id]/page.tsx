@@ -167,7 +167,7 @@ export default function EventDetailPage() {
       category: "Robotics",
       description:
         "Build a rocket and launch it high—just like Spidey's web swings!",
-      image: "/images/skyrocket.png?height=400&width=600",
+      image: "/images/skyrocket.jpg?height=400&width=600",
       longDescription:
         "Compete in an exhilarating rocket-launching contest where height, accuracy, and design ingenuity matter. Will your rocket soar across dimensions?",
       date: "May 2-3",
@@ -291,7 +291,7 @@ export default function EventDetailPage() {
       category: "Coding",
       description:
         "Hackers from the Spider-Verse are breaching realities! Use your cyber skills to crack codes, decrypt messages, and outsmart villains in this ultimate Capture the Flag challenge. Only the smartest web-heads can restore balance!",
-      image: "/images/ctf.png?height=400&width=600",
+      image: "/images/ctf.jpg?height=400&width=600",
       longDescription:
         "The multiverse is under attack! A sinister cyber-villain is tampering with digital dimensions, leaving cryptic clues across cyberspace. As a cyber-Spidey, your mission is to track down vulnerabilities, decrypt codes, and recover lost data before chaos consumes the Spider-Verse. Do you have what it takes to web your way to victory?",
       date: "May 4",
@@ -325,7 +325,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Gear up, squad up, and drop into the battleground as you fight to save—or conquer—the multiverse!",
-      image: "../images/bgmi.png?height=400&width=600",
+      image: "../images/bgmi.jpg?height=400&width=600",
       longDescription:
         "In an alternate dimension, chaos reigns, and only the strongest Spideys will survive! Join the ultimate battle royale where precision, teamwork, and strategy determine who swings to victory. Will you emerge as the last Spidey standing, or will you be lost in the collapsing multiverse?",
       date: "May 2",
@@ -362,7 +362,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Quick reflexes and web-slinging tactics will decide the fate of the battle—are you ready?",
-      image: "/images/freefire.png?height=400&width=600",
+      image: "/images/freefire.jpg?height=400&width=600",
       longDescription:
         "The Spider-Verse is under siege, and only the fastest, smartest, and most agile warriors can defend it! In this high-speed survival showdown, dodge enemy fire, swing into action, and prove your supremacy in an epic Free Fire tournament.",
       date: "May 3",
@@ -399,7 +399,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Suit up, grab your gear, and take down the threats lurking in the Spider-Verse!",
-      image: "/images/codm.png?height=400&width=600",
+      image: "/images/codm.jpg?height=400&width=600",
       longDescription:
         "When villains from multiple dimensions join forces, it's up to you to stop them! Enter an intense Call of Duty showdown where strategy, precision, and web-enhanced reflexes are key. Whether in deathmatch, search and destroy, or battle royale, every shot counts in this war for the multiverse.",
       date: "May 4",
@@ -432,7 +432,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "A multiversal football tournament where Spidey skills meet insane goals!",
-      image: "/images/fifa.png?height=400&width=600",
+      image: "/images/fifa.jpg?height=400&width=600",
       longDescription:
         "Football isn't just a game—it's a battle across dimensions! Lace up and take control of your team as you dribble past defenders, curve the ball like a web-line, and strike powerful goals in a FIFA Mobile tournament where champions are made.",
       date: "May 2",
@@ -465,7 +465,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Master the perfect web-assisted passes and outplay your rivals!",
-      image: "/images/pes.png?height=400&width=600",
+      image: "/images/pes.jpg?height=400&width=600",
       longDescription:
         "In this dimension, football has a Spider-Man twist! Experience precision gameplay and show off your dribbling skills as you face off against the best PES players. Will your team weave the perfect web of passes to victory?",
       date: "May 3",
@@ -498,7 +498,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Stealth, precision, and Spidey senses—only the best agents survive.",
-      image: "/images/valorant.png?height=400&width=600",
+      image: "/images/valorant.jpg?height=400&width=600",
       longDescription:
         "The villains of the Spider-Verse are infiltrating every reality! As elite agents, you and your team must take them down using strategy, precise shots, and lightning-fast reflexes. Every round is a battle for survival—make every ability count!",
       date: "May 4",
@@ -531,7 +531,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Nitro boost your way through the multiverse—because Spidey swings fast, but you drive faster!",
-      image: "/images/asphalt.png?height=400&width=600",
+      image: "/images/asphalt.jpg?height=400&width=600",
       longDescription:
         "When different dimensions collide, only the fastest racers can navigate the chaos! Blaze through impossible tracks, pull off gravity-defying stunts, and cross the finish line in an adrenaline-fueled race through the Spider-Verse.",
       date: "May 2",
@@ -727,7 +727,7 @@ export default function EventDetailPage() {
       category: "Non-Tech",
       description:
         "One path. Countless obstacles. Only those who leap with heart will land in victory.",
-      image: "/images/leap.png?height=400&width=600",
+      image: "/images/leap.jpg?height=400&width=600",
       longDescription:
         "Just like Miles Morales had to take a leap of faith, you must conquer a series of hurdles to prove your skills! Run, jump, and swing past obstacles in this exciting physical challenge that tests your agility and endurance.",
       date: "May 3-4",
@@ -760,7 +760,7 @@ export default function EventDetailPage() {
       category: "Non-Tech",
       description:
         "Freeze moments that even Spidey would stop swinging to admire—shoot your shot, web-head.",
-      image: "/images/spidylens.png?height=400&width=600",
+      image: "/images/spidylens.jpg?height=400&width=600",
       longDescription:
         "Channel your inner Peter Parker and snap breathtaking shots that tell a story! Whether it's action-packed moments or deep emotions, showcase your skills in a photography contest that celebrates creativity and vision.",
       date: "May 2-4",
@@ -793,7 +793,7 @@ export default function EventDetailPage() {
       category: "Non-Tech",
       description:
         "Weave color into chaos—where your brush becomes the web, and the canvas, your city.",
-      image: "/images/canvas.png?height=400&width=600",
+      image: "/images/canvas.jpg?height=400&width=600",
       longDescription:
         "The multiverse is full of colors, styles, and unique Spider-heroes. Use your artistic talent to create a masterpiece that captures the essence of the Spider-Verse in this vibrant art event!",
       date: "May 2-4",
@@ -859,7 +859,7 @@ export default function EventDetailPage() {
       category: "Non-Tech",
       description:
         "The web tests minds, not muscles—enter if your brain’s wired for war.",
-      image: "/images/quantum.png?height=400&width=600",
+      image: "/images/quantum.jpg?height=400&width=600",
       longDescription:
         "Think you have the intellect of Peter Parker? Test your knowledge of technology, science, and the Spider-Verse in this electrifying quiz where only the wittiest web-heads prevail!",
       date: "May 2-3",
@@ -981,7 +981,7 @@ export default function EventDetailPage() {
               
               <div className="p-6 mb-8 bg-spider-dark-blue/20 rounded-lg comic-panel">
                 {/* <img
-                  src="/spider_bg.png" // Replace with actual image path
+                  src="/spider_bg.jpg" // Replace with actual image path
                   alt="Background"
                   className="absolute inset-0 w-full h-full object-cover md:object-fill"
                 /> */}
@@ -993,7 +993,7 @@ export default function EventDetailPage() {
 
               <div className="p-6 mb-8 bg-spider-dark-blue/20 rounded-lg comic-panel">
                 {/* <img
-                  src="/spider_bg.png" // Replace with actual image path
+                  src="/spider_bg.jpg" // Replace with actual image path
                   alt="Background"
                   className="absolute inset-0 w-full h-full object-cover md:object-fill"
                 /> */}
@@ -1012,7 +1012,7 @@ export default function EventDetailPage() {
 
               <div className="p-6 mb-8 bg-spider-dark-blue/20 rounded-lg comic-panel">
                 {/* <img
-                  src="/spider_bg.png" // Replace with actual image path
+                  src="/spider_bg.jpg" // Replace with actual image path
                   alt="Background"
                   className="absolute inset-0 w-full h-full object-cover md:object-fill"
                 /> */}
@@ -1035,7 +1035,7 @@ export default function EventDetailPage() {
 
               <div className="p-6 bg-spider-dark-blue/20 rounded-lg comic-panel">
                 {/* <img
-                  src="/spider_bg.png" // Replace with actual image path
+                  src="/spider_bg.jpg" // Replace with actual image path
                   alt="Background"
                   className="absolute inset-0 w-full h-full object-cover md:object-fill"
                 /> */}
@@ -1067,7 +1067,7 @@ export default function EventDetailPage() {
               <div className="sticky top-24">
                 <div className="p-6 mb-6 bg-spider-dark-blue/20 rounded-lg comic-panel">
                   {/* <img
-                    src="/spider_bg_event.png" // Replace with actual image path
+                    src="/spider_bg_event.jpg" // Replace with actual image path
                     alt="Background"
                     className="absolute inset-0 w-full h-full object-cover md:object-fill"
                   /> */}
@@ -1135,7 +1135,7 @@ export default function EventDetailPage() {
 
                 <div className="p-6 bg-spider-dark-blue/20 rounded-lg comic-panel">
                   {/* <img
-                    src="/spider_bg_event.png" // Replace with actual image path
+                    src="/spider_bg_event.jpg" // Replace with actual image path
                     alt="Background"
                     className="absolute inset-0 w-full h-full object-cover md:object-fill"
                   /> */}
