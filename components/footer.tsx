@@ -102,32 +102,32 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-400">
               <li>
                 <Link href="/events/1" className="hover:text-spider-blue font-comic">
-                  Web Slingers
-                </Link>
-              </li>
-              <li>
-                <Link href="/events/2" className="hover:text-spider-blue font-comic">
-                  Code Dimension
-                </Link>
-              </li>
-              <li>
-                <Link href="/events/3" className="hover:text-spider-blue font-comic">
-                  CTF-Verse
-                </Link>
-              </li>
-              <li>
-                <Link href="/events/4" className="hover:text-spider-blue font-comic">
                   Robo Combat (Weapon)
                 </Link>
               </li>
               <li>
-                <Link href="/events/5" className="hover:text-spider-blue font-comic">
+                <Link href="/events/2" className="hover:text-spider-blue font-comic">
                   Robo Kick
                 </Link>
               </li>
               <li>
-                <Link href="/events/6" className="hover:text-spider-blue font-comic">
+                <Link href="/events/3" className="hover:text-spider-blue font-comic">
                   Death Race
+                </Link>
+              </li>
+              <li>
+                <Link href="/events/4" className="hover:text-spider-blue font-comic">
+                  Sky Rocket
+                </Link>
+              </li>
+              <li>
+                <Link href="/events/5" className="hover:text-spider-blue font-comic">
+                  Robo Surprise Event
+                </Link>
+              </li>
+              <li>
+                <Link href="/events/6" className="hover:text-spider-blue font-comic">
+                  Web Slingers
                 </Link>
               </li>
             </ul>
