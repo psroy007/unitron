@@ -97,7 +97,10 @@ export default function AboutSection() {
             </motion.div>
           </div>
 
-          <motion.div className="grid grid-cols-2 gap-4 mt-12 sm:grid-cols-4" variants={itemVariants}>
+          <motion.div
+            className="flex flex-wrap justify-center gap-4 mt-12"
+            variants={itemVariants}
+          >
             {[
               { count: '3+', color: 'text-spider-red', label: 'Days of Events' },
               { count: '20+', color: 'text-spider-blue', label: 'Technical Events' },
@@ -106,7 +109,7 @@ export default function AboutSection() {
             ].map(({ count, color, label }, index) => (
               <div
                 key={index}
-                className="flex flex-col justify-center items-center h-40 p-6 text-center bg-spider-dark-blue/20 rounded-lg comic-panel"
+                className="w-40 h-40 sm:w-48 sm:h-48 flex flex-col justify-center items-center p-4 bg-spider-dark-blue/20 rounded-lg comic-panel text-center"
               >
                 <h4 className={`text-4xl font-bold ${color} font-comic`}>{count}</h4>
                 <p className="mt-2 text-gray-300 font-comic">{label}</p>
