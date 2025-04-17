@@ -129,7 +129,7 @@ export default function FaqSection() {
                       transition={{ duration: 0.3 }}
                       className="px-6 pb-6"
                     >
-                      <p className="text-gray-300 font-comic">{faq.answer}</p>
+                      <p className="text-gray-300 text-md font-comic">{faq.answer}</p>
                     </motion.div>
                   )}
                 </AnimatePresence>
