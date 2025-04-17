@@ -85,22 +85,22 @@ export default function EventsPage() {
       prizes: "1st: ₹1500, 2nd: ₹1000, 3rd: ₹500",
       featured: false,
     },
-    {
-      id: 5,
-      title: "Robo Surprise Event",
-      category: "Robotics",
-      description:
-        "Surprise event, waiting to be revealed",
-      image: "/placeholder.svg?height=400&width=600",
-      longDescription:
-        "Surprise event, waiting to be revealed",
-      date: "May 2-4",
-      time: "10:00 AM - 7:00 PM",
-      venue: "College Campus",
-      team: "Surprise",
-      prizes: "Surprise",
-      featured: false,
-    },
+    // {
+    //   id: 5,
+    //   title: "Robo Surprise Event",
+    //   category: "Robotics",
+    //   description:
+    //     "Surprise event, waiting to be revealed",
+    //   image: "/placeholder.svg?height=400&width=600",
+    //   longDescription:
+    //     "Surprise event, waiting to be revealed",
+    //   date: "May 2-4",
+    //   time: "10:00 AM - 7:00 PM",
+    //   venue: "College Campus",
+    //   team: "Surprise",
+    //   prizes: "Surprise",
+    //   featured: false,
+    // },
     {
       id: 6,
       title: "Web Slingers",
@@ -158,7 +158,7 @@ export default function EventsPage() {
       category: "Gaming",
       description:
         "Gear up, squad up, and drop into the battleground as you fight to save—or conquer—the multiverse!",
-      image: "/images/bgmi.jpg?height=400&width=600",
+        image: "/events/bgmi.jpg",
       longDescription:
         "In an alternate dimension, chaos reigns, and only the strongest Spideys will survive! Join the ultimate battle royale where precision, teamwork, and strategy determine who swings to victory. Will you emerge as the last Spidey standing, or will you be lost in the collapsing multiverse?",
       date: "May 2",
