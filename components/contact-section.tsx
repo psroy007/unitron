@@ -84,7 +84,7 @@ export default function ContactSection() {
               </div>
             </div>
 
-            <div className="flex justify-center mt-12 space-x-6">
+            <div className="flex justify-center mt-12 mb-8 space-x-6">
               <a
                 href="https://www.facebook.com/unitron.fit"
                 target="_blank"
