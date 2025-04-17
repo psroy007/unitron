@@ -78,8 +78,8 @@ export default function ContactSection() {
                 <h4 className="text-lg font-medium text-spider-blue font-bangers">Phone</h4>
                 <p className="mt-2 text-gray-300 font-comic">
                 +91 74395 28191
-                  <br />
-                  +91 98765 43211
+                  <br />                  
+                +91 8777500789
                 </p>
               </div>
             </div>
