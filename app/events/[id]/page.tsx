@@ -81,7 +81,7 @@ export default function EventDetailPage() {
       time: "10:00 AM - 7:00 PM",
       venue: "College Campus",
       team: "2-4 members",
-      registration: "₹400 (re-entry: ₹250), TTT MEMBERS: ₹350 (re-entry: ₹150)",
+      registration: "₹400, TTT MEMBERS: ₹350",
       prizes: "1st: ₹6000, 2nd: ₹4000",
       featured: false,
       rules: [
@@ -113,7 +113,7 @@ export default function EventDetailPage() {
       time: "10:00 AM - 7:00 PM",
       venue: "College Campus",
       team: "2-4 members",
-      registration: "₹400 (re-entry: ₹250), TTT MEMBERS: ₹300 (re-entry: ₹150)",
+      registration: "₹400, TTT MEMBERS: ₹300",
       prizes: "1st: ₹5000, 2nd: ₹3000, 3rd: ₹2000",
       featured: false,
       rules: [
@@ -147,7 +147,7 @@ export default function EventDetailPage() {
       time: "10:00 AM - 5:00 PM",
       venue: "College Campus",
       team: "Maximum 4 members",
-      registration: "₹150 (re-entry: ₹80)",
+      registration: "₹150",
       prizes: "1st: ₹1500, 2nd: ₹1000, 3rd: ₹500",
       featured: false,
       rules: [
