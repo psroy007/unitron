@@ -332,8 +332,8 @@ export default function EventDetailPage() {
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "1-3 members",
-      registration: "BR: ₹200 (TTT - ₹160) | TDM: Game Card",
-      prizes: "BR: ₹6000 | TDM: Game Card",
+      registration: "BR: ₹200 (TTT - ₹160) | TDM: On Spot",
+      prizes: "BR: ₹6500 | TDM: Game Card",
       featured: false,
       rules: [
         "BGMI BR:",
@@ -369,8 +369,8 @@ export default function EventDetailPage() {
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "1-3 members",
-      registration: "BR: ₹200 (TTT - ₹160) | TDM: Game Card",
-      prizes: "BR: ₹4000 | TDM: Game Card",
+      registration: "BR: ₹200 (TTT - ₹160) | TDM: On spot",
+      prizes: "BR: ₹4500 | TDM: Game Card",
       featured: false,
       rules: [
         "Free Fire BR:",
@@ -406,7 +406,7 @@ export default function EventDetailPage() {
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "1-3 members",
-      registration: "Game Card",
+      registration: "On Spot",
       prizes: "Game Card",
       featured: false,
       rules: [
@@ -439,8 +439,8 @@ export default function EventDetailPage() {
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "1-3 members",
-      registration: "1v1: Game Card | Tournament: ₹50",
-      prizes: "1v1: Game Card | Tournament: ₹1000",
+      registration: "On Spot",
+      prizes: "Game Card",
       featured: false,
       rules: [
         "Participants can compete individually or in teams of up to 3 members.",
@@ -506,7 +506,7 @@ export default function EventDetailPage() {
       venue: "College Campus",
       team: "1-3 members",
       registration: "₹200 (TTT - ₹160)",
-      prizes: "₹6000",
+      prizes: "₹5000",
       featured: false,
       rules: [
         "All the matches will be played on the Technical Fest dates i.e. 19th and 20th April 2024.",
@@ -538,7 +538,7 @@ export default function EventDetailPage() {
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "1-3 members",
-      registration: "Game Card",
+      registration: "On Spot",
       prizes: "Game Card",
       featured: false,
       rules: [
@@ -571,7 +571,7 @@ export default function EventDetailPage() {
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "1-3 members",
-      registration: "Game Card",
+      registration: "On Spot",
       prizes: "Game Card",
       featured: false,
       rules: [
@@ -604,7 +604,7 @@ export default function EventDetailPage() {
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "1-3 members",
-      registration: "Game Card",
+      registration: "On Spot",
       prizes: "Game Card",
       featured: false,
       rules: [
@@ -636,7 +636,7 @@ export default function EventDetailPage() {
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "1-3 members",
-      registration: "Game Card",
+      registration: "On Spot",
       prizes: "Game Card",
       featured: false,
       rules: [
@@ -833,7 +833,7 @@ export default function EventDetailPage() {
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "1-3 members",
-      registration: "Game Card",
+      registration: "On Spot",
       prizes: "Game Card",
       featured: false,
       rules: [
