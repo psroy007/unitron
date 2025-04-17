@@ -362,7 +362,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Quick reflexes and web-slinging tactics will decide the fate of the battle—are you ready?",
-      image: "/images/freefire.jpg?height=400&width=600",
+      image: "/events/freefire.jpg",
       longDescription:
         "The Spider-Verse is under siege, and only the fastest, smartest, and most agile warriors can defend it! In this high-speed survival showdown, dodge enemy fire, swing into action, and prove your supremacy in an epic Free Fire tournament.",
       date: "May 3",
@@ -399,7 +399,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Suit up, grab your gear, and take down the threats lurking in the Spider-Verse!",
-      image: "/images/codm.jpg?height=400&width=600",
+      image: "/events/callofduty.jpg",
       longDescription:
         "When villains from multiple dimensions join forces, it's up to you to stop them! Enter an intense Call of Duty showdown where strategy, precision, and web-enhanced reflexes are key. Whether in deathmatch, search and destroy, or battle royale, every shot counts in this war for the multiverse.",
       date: "May 4",
@@ -432,7 +432,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "A multiversal football tournament where Spidey skills meet insane goals!",
-      image: "/images/fifa.jpg?height=400&width=600",
+      image: "/events/fifa.jpg",
       longDescription:
         "Football isn't just a game—it's a battle across dimensions! Lace up and take control of your team as you dribble past defenders, curve the ball like a web-line, and strike powerful goals in a FIFA Mobile tournament where champions are made.",
       date: "May 2",
@@ -465,7 +465,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Master the perfect web-assisted passes and outplay your rivals!",
-      image: "/images/pes.jpg?height=400&width=600",
+      image: "/events/pes.jpg",
       longDescription:
         "In this dimension, football has a Spider-Man twist! Experience precision gameplay and show off your dribbling skills as you face off against the best PES players. Will your team weave the perfect web of passes to victory?",
       date: "May 3",
@@ -498,7 +498,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Stealth, precision, and Spidey senses—only the best agents survive.",
-      image: "/images/valorant.jpg?height=400&width=600",
+      image: "/events/valorant.jpg",
       longDescription:
         "The villains of the Spider-Verse are infiltrating every reality! As elite agents, you and your team must take them down using strategy, precise shots, and lightning-fast reflexes. Every round is a battle for survival—make every ability count!",
       date: "May 4",
@@ -531,7 +531,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Nitro boost your way through the multiverse—because Spidey swings fast, but you drive faster!",
-      image: "/images/asphalt.jpg?height=400&width=600",
+      image: "/events/asphalt8.jpg",
       longDescription:
         "When different dimensions collide, only the fastest racers can navigate the chaos! Blaze through impossible tracks, pull off gravity-defying stunts, and cross the finish line in an adrenaline-fueled race through the Spider-Verse.",
       date: "May 2",
@@ -564,7 +564,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "A simple card game? Think again—across the Spider-Verse, anything can happen!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/events/uno.png",
       longDescription:
         "When Spidey's friends and foes gather around a table, expect chaos! Skip turns, reverse fates, and unleash the dreaded '+4' as you battle to be the ultimate Uno champion. Every move might just open a new dimension!",
       date: "May 3",
@@ -597,7 +597,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Aim, shoot, and pocket balls with Spidey precision!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/events/8-ball-pool.avif",
       longDescription:
         "Spider-Man's agility isn't just for swinging—it's for pool too! Test your angles, master trick shots, and outplay your rivals in a thrilling 8 Ball Pool tournament where the best cue artists reign supreme.",
       date: "May 4",
@@ -629,7 +629,7 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Dodge, jump, and slide through an endless chase in the multiverse!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/events/subway.png",
       longDescription:
         "In a world where reality keeps shifting, the only way to survive is to keep running! Dash across iconic Subway Surfers maps with Spidey speed, avoiding obstacles and collecting power-ups to stay ahead of the chase.",
       date: "May 2",
@@ -662,7 +662,7 @@ export default function EventDetailPage() {
       category: "Non-Tech",
       description:
         "A multiversal carnival packed with fun, games, and web-slinging surprises!",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/events/carnival2.avif",
       longDescription:
         "Step into a world where the Spider-Verse comes to life! From thrilling games to themed attractions, experience a carnival filled with Spidey-themed adventures, food, and entertainment. Get ready for an unforgettable fiesta!",
       date: "May 2-3",
@@ -692,7 +692,7 @@ export default function EventDetailPage() {
       category: "Non-Tech",
       description:
         "Secrets hide in plain sight—can you trace the unseen thread before it coils around you?",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/web-of-hints.jpg",
       longDescription:
         "Villains have stolen a priceless artifact, and only the sharpest minds can recover it! Follow a web of clues, crack riddles, and navigate through obstacles as you uncover the lost secrets of the Spider-Verse.",
       date: "May 2, May 4",
@@ -727,7 +727,7 @@ export default function EventDetailPage() {
       category: "Non-Tech",
       description:
         "One path. Countless obstacles. Only those who leap with heart will land in victory.",
-      image: "/images/leap.jpg?height=400&width=600",
+      image: "/events/leapoffaith.jpg",
       longDescription:
         "Just like Miles Morales had to take a leap of faith, you must conquer a series of hurdles to prove your skills! Run, jump, and swing past obstacles in this exciting physical challenge that tests your agility and endurance.",
       date: "May 3-4",
@@ -760,7 +760,7 @@ export default function EventDetailPage() {
       category: "Non-Tech",
       description:
         "Freeze moments that even Spidey would stop swinging to admire—shoot your shot, web-head.",
-      image: "/images/spidylens.jpg?height=400&width=600",
+      image: "/events/spidey's-lens.jpg",
       longDescription:
         "Channel your inner Peter Parker and snap breathtaking shots that tell a story! Whether it's action-packed moments or deep emotions, showcase your skills in a photography contest that celebrates creativity and vision.",
       date: "May 2-4",
@@ -826,7 +826,7 @@ export default function EventDetailPage() {
       category: "Non-Tech",
       description:
         "When gravity challenges you, can your design stand tall—or will it snap like a loose thread?",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/events/stickyweb.jpg",
       longDescription:
         "Peter Parker built web bridges to escape danger—now it's your turn! Design and construct a bridge using limited materials, ensuring stability and strength in this thrilling engineering challenge.",
       date: "May 2-4",
