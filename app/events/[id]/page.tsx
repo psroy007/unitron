@@ -1190,3 +1190,7 @@ export default function EventDetailPage() {
     </main>
   )
 }
+
+
+
+
