@@ -75,20 +75,20 @@ export default function EventsSection() {
       venue: "College Campus",
       team: "Maximum 4 members",
     },
-    {
-      id: 5,
-      title: "Robo Surprise Event",
-      category: "Robotics",
-      description:
-        "Surprise event, waiting to be revealed",
-      image: "/placeholder.svg?height=400&width=600",
-      longDescription:
-        "Surprise event, waiting to be revealed",
-      date: "May 2-4",
-      time: "10:00 AM - 7:00 PM",
-      venue: "College Campus",
-      team: "Surprise",
-    },
+    // {
+    //   id: 5,
+    //   title: "Robo Surprise Event",
+    //   category: "Robotics",
+    //   description:
+    //     "Surprise event, waiting to be revealed",
+    //   image: "/placeholder.svg?height=400&width=600",
+    //   longDescription:
+    //     "Surprise event, waiting to be revealed",
+    //   date: "May 2-4",
+    //   time: "10:00 AM - 7:00 PM",
+    //   venue: "College Campus",
+    //   team: "Surprise",
+    // },
     {
       id: 6,
       title: "Web Slingers",
