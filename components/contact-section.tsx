@@ -46,7 +46,7 @@ export default function ContactSection() {
           </motion.div>
 
           <motion.div className="p-8 bg-spider-dark-blue/20 rounded-lg comic-panel" variants={itemVariants}>
-            <h3 className="mb-6 text-2xl font-bold text-center text-white font-comic">GET IN TOUCH</h3>
+            <h3 className="mt-6 mb-6 text-2xl font-bold text-center text-white font-comic">GET IN TOUCH</h3>
 
             <div className="grid gap-8 md:grid-cols-3">
               <div className="flex flex-col items-center text-center">
