@@ -79,7 +79,7 @@ export default function ContactSection() {
                 <p className="mt-2 text-gray-300 font-comic">
                 +91 74395 28191
                   <br />
-                  +91 98765 43211
+                  +91 87775 00789
                 </p>
               </div>
             </div>
