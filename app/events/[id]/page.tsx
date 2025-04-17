@@ -1,7 +1,6 @@
 "use client"
 import { jsPDF } from "jspdf"
 import React from "react"
-
 import { useEffect, useState } from "react"
 import { motion } from "framer-motion"
 import Image from "next/image"
@@ -11,58 +10,28 @@ import { useParams, useRouter } from "next/navigation"
 import GlitchEffect from "@/components/glitch-effect"
 import WebEffect from "@/components/web-effect"
 
-const generatePDF = (event: any) => {
-  const doc = new jsPDF();
-
-  doc.setFontSize(20);
-  doc.text(event.title, 10, 20);
-
-  doc.setFontSize(12);
-  doc.text(`Category: ${event.category}`, 10, 30);
-  doc.text(`Date: ${event.date}`, 10, 40);
-  doc.text(`Time: ${event.time}`, 10, 50);
-  doc.text(`Venue: ${event.venue}`, 10, 60);
-  doc.text(`Team: ${event.team}`, 10, 70);
-  doc.text(`Prizes: ${event.prizes}`, 10, 80);
-
-  doc.setFont('font-comic', 'bold');
-  doc.text("Description:", 10, 95);
-  doc.setFont('font-comic', 'normal');
-  doc.text(doc.splitTextToSize(event.description, 180), 10, 105);
-
-  doc.setFont('font-comic', 'bold');
-  doc.text("Long Description:", 10, 125);
-  doc.setFont('font-comic', 'normal');
-  doc.text(doc.splitTextToSize(event.longDescription, 180), 10, 135);
-
-  doc.setFont('font-comic', 'bold');
-  doc.text("Rules:", 10, 165);
-  doc.setFont('font-comic', 'normal');
-  event.rules.forEach((rule: string, index: number) => {
-    doc.text(`• ${rule}`, 10, 175 + index * 7);
-  });
-
-  const coordStartY = 175 + event.rules.length * 7 + 10;
-  doc.setFont('font-comic', 'bold');
-  doc.text("Coordinators:", 10, coordStartY);
-
-  doc.setFont('font-comic', 'normal');
-  event.coordinators.forEach((coordinator: any, index: number) => {
-    doc.text(
-      `${coordinator.name} - ${coordinator.contact}`,
-      10,
-      coordStartY + 10 + index * 7
-    );
-  });
-
-  doc.save(`${event.title.replace(/\s+/g, '_')}_Rulebook.pdf`);
-};
-
 export default function EventDetailPage() {
   const params = useParams()
   const router = useRouter()
   const [event, setEvent] = useState<any>(null)
   const [loading, setLoading] = useState(true)
+
+  // Function to handle PDF download
+  const handleDownloadPDF = () => {
+    if (!event?.rulebook) {
+      console.error("No rulebook available for this event");
+      return;
+    }
+    
+    const link = document.createElement('a');
+    link.href = event.rulebook;
+    link.download = `${event.title.replace(/\s+/g, '_')}_Rulebook.pdf`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+ 
 
   // Events data - in a real app, this would come from an API
   const events = [
@@ -73,6 +42,7 @@ export default function EventDetailPage() {
       description:
         "Design a monster, not a machine — and let it feast on metal in the pit.",
       image: "../images/robo_combat.jpg?height=800&width=1000",
+      rulebook: "/rulebooks/robo_combat.pdf",
       longDescription:
         "The Spider-Verse has seen its fair share of battles, but this time, it's mechanized! Design and control a combat robot to fight against other contenders in an intense arena battle.",
       date: "May 3-4",
@@ -104,6 +74,7 @@ export default function EventDetailPage() {
       description:
         "A high-tech soccer match where robots score like Spidey swings!",
       image: "../images/robo_kick.jpg?height=400&width=600",
+      rulebook: "/rulebooks/robo_kick.pdf",
       longDescription:
         "Design a robot capable of powerful kicks and precision passes in this high-energy robotic soccer challenge. Only the best-engineered bot will claim victory!",
       date: "May 2-4",
@@ -135,6 +106,7 @@ export default function EventDetailPage() {
       description:
         "Build the fastest bot and race to victory through dangerous twists and turns!",
       image: "../images/deathrace.jpg?height=400&width=600",
+      rulebook: "/rulebooks/death_race.pdf",
       longDescription:
         "Speed through an intense track filled with obstacles and challenges. Only the fastest and most maneuverable robots will survive this high-stakes race through the Spider-Verse!",
       date: "May 2-4",
@@ -168,6 +140,7 @@ export default function EventDetailPage() {
       description:
         "Build a rocket and launch it high—just like Spidey's web swings!",
       image: "/images/skyrocket.jpg?height=400&width=600",
+      rulebook: "/rulebooks/sky_rocket.pdf",
       longDescription:
         "Compete in an exhilarating rocket-launching contest where height, accuracy, and design ingenuity matter. Will your rocket soar across dimensions?",
       date: "May 2-3",
@@ -192,33 +165,33 @@ export default function EventDetailPage() {
         "/placeholder.svg?height=400&width=600",
       ],
     },
-    {
-      id: 5,
-      title: "Robo Surprise Event",
-      category: "Robotics",
-      description:
-        "Surprise event, waiting to be revealed",
-      image: "/placeholder.svg?height=400&width=600",
-      longDescription:
-        "Surprise event, waiting to be revealed",
-      date: "May 2-4",
-      time: "10:00 AM - 7:00 PM",
-      venue: "College Campus",
-      team: "Surprise",
-      prizes: "Surprise",
-      featured: false,
-      rules: [
-        "Surprise event, waiting to be revealed",
-      ],
-      coordinators: [
-        { name: "Dibyajyoti Jana", contact: "+91 81673 76966" },
-      ],
-      gallery: [
-        "/placeholder.svg?height=400&width=600",
-        "/placeholder.svg?height=400&width=600",
-        "/placeholder.svg?height=400&width=600",
-      ],
-    },
+    // {
+    //   id: 5,
+    //   title: "Robo Surprise Event",
+    //   category: "Robotics",
+    //   description:
+    //     "Surprise event, waiting to be revealed",
+    //   image: "/placeholder.svg?height=400&width=600",
+    //   longDescription:
+    //     "Surprise event, waiting to be revealed",
+    //   date: "May 2-4",
+    //   time: "10:00 AM - 7:00 PM",
+    //   venue: "College Campus",
+    //   team: "Surprise",
+    //   prizes: "Surprise",
+    //   featured: false,
+    //   rules: [
+    //     "Surprise event, waiting to be revealed",
+    //   ],
+    //   coordinators: [
+    //     { name: "Dibyajyoti Jana", contact: "+91 81673 76966" },
+    //   ],
+    //   gallery: [
+    //     "/placeholder.svg?height=400&width=600",
+    //     "/placeholder.svg?height=400&width=600",
+    //     "/placeholder.svg?height=400&width=600",
+    //   ],
+    // },
     {
       id: 6,
       title: "Web Slingers",
@@ -226,10 +199,11 @@ export default function EventDetailPage() {
       description:
         "Showcase your web development skills by creating innovative and responsive websites. Spin your web of code and design to capture the judges' attention.",
       image: "../images/web_slingers.jpg?height=400&width=600",
+      rulebook: "/rulebooks/web-slingers.pdf",
       longDescription:
         "Dive into the multiverse of web development! In this challenge, participants will create a fully responsive website based on a theme revealed at the start of the competition. You'll have 24 hours to design, code, and deploy your creation. Judges will evaluate your work based on design aesthetics, code quality, responsiveness, and creative implementation of the theme. Bring your HTML, CSS, and JavaScript skills to swing through this challenge!",
       date: "May 2",
-      time: "10:00 AM - 10:00 AM (next day)",
+      time: "10:00 AM - 2:30 PM",
       venue: "College Campus",
       team: "2-3 members",
       registration: "₹120",
@@ -259,10 +233,11 @@ export default function EventDetailPage() {
       description:
         "Navigate through multiple dimensions of coding challenges. Solve complex problems with efficient algorithms and prove your coding prowess.",
       image: "../images/code_dimension.jpg?height=400&width=600",
+      rulebook: "/rulebooks/code-dimension.pdf",
       longDescription:
         "Enter a dimension where algorithms reign supreme! Code Dimension is an intense competitive coding contest where participants will face increasingly difficult programming challenges across multiple rounds. Each round represents a different dimension with unique problem-solving requirements. From time complexity optimization to space-efficient solutions, you'll need to adapt quickly to survive each dimension. Only the most versatile coders will make it to the final round!",
       date: "May 2-3",
-      time: "2:00 PM - 6:00 PM",
+      time: "12:00 PM - 2:00 PM",
       venue: "College Campus",
       team: "Individual",
       registration: "₹80",
@@ -292,6 +267,7 @@ export default function EventDetailPage() {
       description:
         "Hackers from the Spider-Verse are breaching realities! Use your cyber skills to crack codes, decrypt messages, and outsmart villains in this ultimate Capture the Flag challenge. Only the smartest web-heads can restore balance!",
       image: "/images/ctf.jpg?height=400&width=600",
+      rulebook: "/rulebooks/ctf-verse.pdf",
       longDescription:
         "The multiverse is under attack! A sinister cyber-villain is tampering with digital dimensions, leaving cryptic clues across cyberspace. As a cyber-Spidey, your mission is to track down vulnerabilities, decrypt codes, and recover lost data before chaos consumes the Spider-Verse. Do you have what it takes to web your way to victory?",
       date: "May 4",
@@ -325,15 +301,16 @@ export default function EventDetailPage() {
       category: "Gaming",
       description:
         "Gear up, squad up, and drop into the battleground as you fight to save—or conquer—the multiverse!",
-      image: "../images/bgmi.jpg?height=400&width=600",
+      image: "/events/bgmi.jpg",
+      rulebook: "/rulebooks/bgmi.pdf",
       longDescription:
         "In an alternate dimension, chaos reigns, and only the strongest Spideys will survive! Join the ultimate battle royale where precision, teamwork, and strategy determine who swings to victory. Will you emerge as the last Spidey standing, or will you be lost in the collapsing multiverse?",
       date: "May 2",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "1-3 members",
-      registration: "BR: ₹200 (TTT - ₹160) | TDM: On Spot",
-      prizes: "BR: ₹6500 | TDM: Game Card",
+      registration: "BR: ₹200 (TTT - ₹160) | TDM: Game Card",
+      prizes: "BR: ₹6000 | TDM: Game Card",
       featured: false,
       rules: [
         "BGMI BR:",
@@ -363,14 +340,15 @@ export default function EventDetailPage() {
       description:
         "Quick reflexes and web-slinging tactics will decide the fate of the battle—are you ready?",
       image: "/events/freefire.jpg",
+      rulebook: "/rulebooks/free_fire.pdf",
       longDescription:
         "The Spider-Verse is under siege, and only the fastest, smartest, and most agile warriors can defend it! In this high-speed survival showdown, dodge enemy fire, swing into action, and prove your supremacy in an epic Free Fire tournament.",
       date: "May 3",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "1-3 members",
-      registration: "BR: ₹200 (TTT - ₹160) | TDM: On spot",
-      prizes: "BR: ₹4500 | TDM: Game Card",
+      registration: "BR: ₹200 (TTT - ₹160) | TDM: Game Card",
+      prizes: "BR: ₹4000 | TDM: Game Card",
       featured: false,
       rules: [
         "Free Fire BR:",
@@ -400,13 +378,14 @@ export default function EventDetailPage() {
       description:
         "Suit up, grab your gear, and take down the threats lurking in the Spider-Verse!",
       image: "/events/callofduty.jpg",
+      rulebook: "/rulebooks/codm.pdf",
       longDescription:
         "When villains from multiple dimensions join forces, it's up to you to stop them! Enter an intense Call of Duty showdown where strategy, precision, and web-enhanced reflexes are key. Whether in deathmatch, search and destroy, or battle royale, every shot counts in this war for the multiverse.",
       date: "May 4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "1-3 members",
-      registration: "On Spot",
+      registration: "Game Card",
       prizes: "Game Card",
       featured: false,
       rules: [
@@ -433,14 +412,15 @@ export default function EventDetailPage() {
       description:
         "A multiversal football tournament where Spidey skills meet insane goals!",
       image: "/events/fifa.jpg",
+      rulebook: "/rulebooks/fifa.pdf",
       longDescription:
         "Football isn't just a game—it's a battle across dimensions! Lace up and take control of your team as you dribble past defenders, curve the ball like a web-line, and strike powerful goals in a FIFA Mobile tournament where champions are made.",
       date: "May 2",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "1-3 members",
-      registration: "On Spot",
-      prizes: "Game Card",
+      registration: "1v1: Game Card | Tournament: ₹50",
+      prizes: "1v1: Game Card | Tournament: ₹1000",
       featured: false,
       rules: [
         "Participants can compete individually or in teams of up to 3 members.",
@@ -466,6 +446,7 @@ export default function EventDetailPage() {
       description:
         "Master the perfect web-assisted passes and outplay your rivals!",
       image: "/events/pes.jpg",
+      rulebook: "/rulebooks/pes.pdf",
       longDescription:
         "In this dimension, football has a Spider-Man twist! Experience precision gameplay and show off your dribbling skills as you face off against the best PES players. Will your team weave the perfect web of passes to victory?",
       date: "May 3",
@@ -499,6 +480,7 @@ export default function EventDetailPage() {
       description:
         "Stealth, precision, and Spidey senses—only the best agents survive.",
       image: "/events/valorant.jpg",
+      rulebook: "/rulebooks/valorant.pdf",
       longDescription:
         "The villains of the Spider-Verse are infiltrating every reality! As elite agents, you and your team must take them down using strategy, precise shots, and lightning-fast reflexes. Every round is a battle for survival—make every ability count!",
       date: "May 4",
@@ -506,7 +488,7 @@ export default function EventDetailPage() {
       venue: "College Campus",
       team: "1-3 members",
       registration: "₹200 (TTT - ₹160)",
-      prizes: "₹5000",
+      prizes: "₹6000",
       featured: false,
       rules: [
         "All the matches will be played on the Technical Fest dates i.e. 19th and 20th April 2024.",
@@ -532,13 +514,14 @@ export default function EventDetailPage() {
       description:
         "Nitro boost your way through the multiverse—because Spidey swings fast, but you drive faster!",
       image: "/events/asphalt8.jpg",
+      rulebook: "/rulebooks/asphalt8.pdf",
       longDescription:
         "When different dimensions collide, only the fastest racers can navigate the chaos! Blaze through impossible tracks, pull off gravity-defying stunts, and cross the finish line in an adrenaline-fueled race through the Spider-Verse.",
       date: "May 2",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "1-3 members",
-      registration: "On Spot",
+      registration: "Game Card",
       prizes: "Game Card",
       featured: false,
       rules: [
@@ -565,13 +548,14 @@ export default function EventDetailPage() {
       description:
         "A simple card game? Think again—across the Spider-Verse, anything can happen!",
       image: "/events/uno.png",
+      rulebook: "/rulebooks/uno.pdf",
       longDescription:
         "When Spidey's friends and foes gather around a table, expect chaos! Skip turns, reverse fates, and unleash the dreaded '+4' as you battle to be the ultimate Uno champion. Every move might just open a new dimension!",
       date: "May 3",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "1-3 members",
-      registration: "On Spot",
+      registration: "Game Card",
       prizes: "Game Card",
       featured: false,
       rules: [
@@ -598,13 +582,14 @@ export default function EventDetailPage() {
       description:
         "Aim, shoot, and pocket balls with Spidey precision!",
       image: "/events/8-ball-pool.avif",
+      rulebook: "/rulebooks/pool.pdf",
       longDescription:
         "Spider-Man's agility isn't just for swinging—it's for pool too! Test your angles, master trick shots, and outplay your rivals in a thrilling 8 Ball Pool tournament where the best cue artists reign supreme.",
       date: "May 4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "1-3 members",
-      registration: "On Spot",
+      registration: "Game Card",
       prizes: "Game Card",
       featured: false,
       rules: [
@@ -630,13 +615,14 @@ export default function EventDetailPage() {
       description:
         "Dodge, jump, and slide through an endless chase in the multiverse!",
       image: "/events/subway.png",
+      rulebook: "/rulebooks/subway.pdf",
       longDescription:
         "In a world where reality keeps shifting, the only way to survive is to keep running! Dash across iconic Subway Surfers maps with Spidey speed, avoiding obstacles and collecting power-ups to stay ahead of the chase.",
       date: "May 2",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "1-3 members",
-      registration: "On Spot",
+      registration: "Game Card",
       prizes: "Game Card",
       featured: false,
       rules: [
@@ -663,6 +649,7 @@ export default function EventDetailPage() {
       description:
         "A multiversal carnival packed with fun, games, and web-slinging surprises!",
       image: "/events/carnival2.avif",
+      rulebook: "/rulebooks/fiesta.pdf",
       longDescription:
         "Step into a world where the Spider-Verse comes to life! From thrilling games to themed attractions, experience a carnival filled with Spidey-themed adventures, food, and entertainment. Get ready for an unforgettable fiesta!",
       date: "May 2-3",
@@ -693,6 +680,7 @@ export default function EventDetailPage() {
       description:
         "Secrets hide in plain sight—can you trace the unseen thread before it coils around you?",
       image: "/images/web-of-hints.jpg",
+      rulebook: "/rulebooks/web_of_hints.pdf",
       longDescription:
         "Villains have stolen a priceless artifact, and only the sharpest minds can recover it! Follow a web of clues, crack riddles, and navigate through obstacles as you uncover the lost secrets of the Spider-Verse.",
       date: "May 2, May 4",
@@ -728,6 +716,7 @@ export default function EventDetailPage() {
       description:
         "One path. Countless obstacles. Only those who leap with heart will land in victory.",
       image: "/events/leapoffaith.jpg",
+      rulebook: "/rulebooks/leap_of_faith.pdf",
       longDescription:
         "Just like Miles Morales had to take a leap of faith, you must conquer a series of hurdles to prove your skills! Run, jump, and swing past obstacles in this exciting physical challenge that tests your agility and endurance.",
       date: "May 3-4",
@@ -761,6 +750,7 @@ export default function EventDetailPage() {
       description:
         "Freeze moments that even Spidey would stop swinging to admire—shoot your shot, web-head.",
       image: "/events/spidey's-lens.jpg",
+      rulebook: "/rulebooks/spidey's_lens.pdf",
       longDescription:
         "Channel your inner Peter Parker and snap breathtaking shots that tell a story! Whether it's action-packed moments or deep emotions, showcase your skills in a photography contest that celebrates creativity and vision.",
       date: "May 2-4",
@@ -794,6 +784,7 @@ export default function EventDetailPage() {
       description:
         "Weave color into chaos—where your brush becomes the web, and the canvas, your city.",
       image: "/images/canvas.jpg?height=400&width=600",
+      rulebook: "/rulebooks/webbed_masterpiece.pdf",
       longDescription:
         "The multiverse is full of colors, styles, and unique Spider-heroes. Use your artistic talent to create a masterpiece that captures the essence of the Spider-Verse in this vibrant art event!",
       date: "May 2-4",
@@ -827,13 +818,14 @@ export default function EventDetailPage() {
       description:
         "When gravity challenges you, can your design stand tall—or will it snap like a loose thread?",
       image: "/events/stickyweb.jpg",
+      rulebook: "/rulebooks/sticky_web.pdf",
       longDescription:
         "Peter Parker built web bridges to escape danger—now it's your turn! Design and construct a bridge using limited materials, ensuring stability and strength in this thrilling engineering challenge.",
       date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "1-3 members",
-      registration: "On Spot",
+      registration: "Game Card",
       prizes: "Game Card",
       featured: false,
       rules: [
@@ -860,6 +852,7 @@ export default function EventDetailPage() {
       description:
         "The web tests minds, not muscles—enter if your brain’s wired for war.",
       image: "/images/quantum.jpg?height=400&width=600",
+      rulebook: "/rulebooks/quantum.pdf",
       longDescription:
         "Think you have the intellect of Peter Parker? Test your knowledge of technology, science, and the Spider-Verse in this electrifying quiz where only the wittiest web-heads prevail!",
       date: "May 2-3",
@@ -980,11 +973,6 @@ export default function EventDetailPage() {
             >
               
               <div className="p-6 mb-8 bg-spider-dark-blue/20 rounded-lg comic-panel">
-                {/* <img
-                  src="/spider_bg.jpg" // Replace with actual image path
-                  alt="Background"
-                  className="absolute inset-0 w-full h-full object-cover md:object-fill"
-                /> */}
                 <div className="relative z-10">
                   <h2 className="mb-4 text-2xl font-bold text-spider-red font-comic">ABOUT THE EVENT</h2>
                   <p className="text-white">{event.longDescription}</p>
@@ -992,11 +980,6 @@ export default function EventDetailPage() {
               </div>
 
               <div className="p-6 mb-8 bg-spider-dark-blue/20 rounded-lg comic-panel">
-                {/* <img
-                  src="/spider_bg.jpg" // Replace with actual image path
-                  alt="Background"
-                  className="absolute inset-0 w-full h-full object-cover md:object-fill"
-                /> */}
                 <div className="relative z-10">
                   <h2 className="mb-4 text-2xl font-bold text-spider-red font-comic">RULES & GUIDELINES</h2>
                   <ul className="space-y-2 text-white">
@@ -1010,16 +993,11 @@ export default function EventDetailPage() {
                 </div>
               </div>
 
-              <div className="p-6 mb-8 bg-spider-dark-blue/20 rounded-lg comic-panel">
-                {/* <img
-                  src="/spider_bg.jpg" // Replace with actual image path
-                  alt="Background"
-                  className="absolute inset-0 w-full h-full object-cover md:object-fill"
-                /> */}
-                <div className="relative z-10">
-                  <h2 className="mb-4 text-2xl font-bold text-spider-red font-comic">GALLERY</h2>
-                  <div className="grid grid-cols-3 gap-4">
-                    {event.gallery.map((image: string, index: number) => (
+              {/* <div className="p-6 mb-8 bg-spider-dark-blue/20 rounded-lg comic-panel"> */}
+                {/* <div className="relative z-10"> */}
+                  {/* <h2 className="mb-4 text-2xl font-bold text-spider-red font-comic">GALLERY</h2> */}
+                  {/* <div className="grid grid-cols-3 gap-4"> */}
+                    {/* {event.gallery.map((image: string, index: number) => (
                       <div key={index} className="relative overflow-hidden rounded-lg aspect-square">
                         <Image
                           src={image || "/placeholder.svg"}
@@ -1028,17 +1006,12 @@ export default function EventDetailPage() {
                           className="object-cover transition-transform duration-300 hover:scale-110"
                         />
                       </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
+                    ))} */}
+                  {/* </div> */}
+                {/* </div> */}
+              {/* </div> */}
 
               <div className="p-6 bg-spider-dark-blue/20 rounded-lg comic-panel">
-                {/* <img
-                  src="/spider_bg.jpg" // Replace with actual image path
-                  alt="Background"
-                  className="absolute inset-0 w-full h-full object-cover md:object-fill"
-                /> */}
                 <div className="relative z-10">
                   <h2 className="mb-4 text-2xl font-bold text-spider-red font-comic">EVENT COORDINATORS</h2>
                   <div className="space-y-4">
@@ -1066,11 +1039,6 @@ export default function EventDetailPage() {
             >
               <div className="sticky top-24">
                 <div className="p-6 mb-6 bg-spider-dark-blue/20 rounded-lg comic-panel">
-                  {/* <img
-                    src="/spider_bg_event.jpg" // Replace with actual image path
-                    alt="Background"
-                    className="absolute inset-0 w-full h-full object-cover md:object-fill"
-                  /> */}
                   <div className="relative z-10">
                     <h2 className="mb-4 text-xl font-bold text-spider-red font-comic">EVENT DETAILS</h2>
 
@@ -1128,17 +1096,15 @@ export default function EventDetailPage() {
 
                 <div className="p-6 mb-6 text-center bg-spider-red border-2 border-white rounded-lg">
                   <h3 className="mb-2 text-xl font-bold text-white font-comic">Download Rule Book</h3>
-                  <button className="w-full px-4 py-2 font-bold text-spider-red bg-white rounded-md hover:bg-gray-100 transition-colors" onClick={() => generatePDF(event)}>
+                  <button 
+                    className="w-full px-4 py-2 font-bold text-spider-red bg-white rounded-md hover:bg-gray-100 transition-colors" 
+                    onClick={handleDownloadPDF}
+                  >
                     Download
                   </button>
                 </div>
 
                 <div className="p-6 bg-spider-dark-blue/20 rounded-lg comic-panel">
-                  {/* <img
-                    src="/spider_bg_event.jpg" // Replace with actual image path
-                    alt="Background"
-                    className="absolute inset-0 w-full h-full object-cover md:object-fill"
-                  /> */}
                   <div className="relative z-10">
                     <h3 className="mb-4 text-xl font-bold text-spider-red font-comic">SHARE</h3>
                     <div className="flex justify-center mt-12 space-x-6">
@@ -1155,14 +1121,6 @@ export default function EventDetailPage() {
                           ></path>
                         </svg>
                       </a>
-                      {/* <a
-                        href="#"
-                        className="flex items-center justify-center w-12 h-12 transition-transform bg-spider-blue rounded-full hover:scale-110"
-                      >
-                        <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                          <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
-                        </svg>
-                      </a> */}
                       <a
                         href="https://www.instagram.com/unitron.fit/"
                         target="_blank"
@@ -1189,7 +1147,7 @@ export default function EventDetailPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
-          >
+          > Related Events
             <div className="grid gap-6 md:grid-cols-3">
               {events
                 .filter((e) => e.id !== event.id && e.category === event.category)
