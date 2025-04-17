@@ -118,7 +118,7 @@ export default function EventDetailPage() {
       featured: false,
       rules: [
         "The team should consist of 2 to 4 members.",
-        "Weight should not exceed 3.0 kg.",
+        "Weight should not exceed 3.0 kg with a tolerance of 5%.",
         "Voltage: Maximum 18 volts, 10 Amps. Above 18 Volts and 10 Amps will not be allowed.",
         "Unethical behaviour could lead to disqualification.",
         "Faculty coordinators have all the rights to take final decisions for any matter during the event .",
