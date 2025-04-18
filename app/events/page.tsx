@@ -85,22 +85,6 @@ export default function EventsPage() {
       prizes: "1st: ₹1500, 2nd: ₹1000, 3rd: ₹500",
       featured: false,
     },
-    // {
-    //   id: 5,
-    //   title: "Robo Surprise Event",
-    //   category: "Robotics",
-    //   description:
-    //     "Surprise event, waiting to be revealed",
-    //   image: "/placeholder.svg?height=400&width=600",
-    //   longDescription:
-    //     "Surprise event, waiting to be revealed",
-    //   date: "May 2-4",
-    //   time: "10:00 AM - 7:00 PM",
-    //   venue: "College Campus",
-    //   team: "Surprise",
-    //   prizes: "Surprise",
-    //   featured: false,
-    // },
     {
       id: 6,
       title: "Web Slingers",
@@ -449,13 +433,6 @@ export default function EventsPage() {
     { id: "Coding", name: "Coding" },
     { id: "Gaming", name: "Gaming" },
     { id: "Non-Tech", name: "Non-Tech" },
-    // { id: "AR/VR Development", name: "AR/VR" },
-    // { id: "Hardware & IoT", name: "Hardware & IoT" },
-    // { id: "Cybersecurity", name: "Cybersecurity" },
-    // { id: "Data Science", name: "Data Science" },
-    // { id: "Game Development", name: "Game Dev" },
-    // { id: "Design", name: "Design" },
-    // { id: "Blockchain", name: "Blockchain" },
   ]
 
   // Filter events based on search query and category
